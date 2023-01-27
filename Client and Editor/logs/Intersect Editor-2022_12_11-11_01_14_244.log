@@ -1,0 +1,64 @@
+﻿2022-12-11 04:01:15.101 [Warn] FileNotFoundException: Could not find file 'C:\Users\cuong\OneDrive\Máy tính\Intersect Engine 0.7.1.88-beta Full\Client and Editor\resources\editor_strings.json'.
+    Stack:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at Intersect.Editor.Localization.Strings.Load()
+
+
+--------------------------------------------------------------------------------
+2022-12-11 04:01:15.221 [Warn] FileNotFoundException: Missing configuration file.
+    Stack:    at Intersect.Configuration.ConfigurationHelper.Load[T](T configuration, String filePath, Boolean failQuietly)
+   at Intersect.Configuration.ClientConfiguration.Load(String filePath, Boolean failQuietly)
+   at Intersect.Configuration.ConfigurationHelper.LoadSafely[T](T configuration, String filePath)
+
+
+--------------------------------------------------------------------------------
+2022-12-11 04:01:15.355 [Warn] Missing strings, overwriting strings file:
+	NpcEditor.Immunities (string dictionary),
+	ProjectileEditor.GrappleOpts (string dictionary)
+
+--------------------------------------------------------------------------------
+2022-12-11 04:01:15.593 [Info] Connecting to 127.0.0.1:5400...
+
+--------------------------------------------------------------------------------
+2022-12-11 04:01:16.333 [Info] Connection approved [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2022-12-11 04:01:16.387 [Debug] approval Time=21726 Offset=63806328054554 Real=63806328076281
+
+--------------------------------------------------------------------------------
+2022-12-11 04:01:16.387 [Debug] local Time=21726 Offset=63806328054660 Real=63806328076387
+
+--------------------------------------------------------------------------------
+2022-12-11 04:01:16.387 [Debug] real delta=106
+
+--------------------------------------------------------------------------------
+2022-12-11 04:01:16.387 [Debug] this.Statistics.Ping=0 NCPing=1
+
+--------------------------------------------------------------------------------
+2022-12-11 04:01:16.388 [Debug] Connection established to remote [00000000-0000-0000-0000-000000000000/127.0.0.1:5400].
+
+--------------------------------------------------------------------------------
+2022-12-11 04:01:16.389 [Info] Connected [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2022-12-11 04:01:16.437 [Warn] Missing strings, overwriting strings file:
+	NpcEditor.Immunities[Knockback],
+	NpcEditor.Immunities[Silence],
+	NpcEditor.Immunities[Stun],
+	NpcEditor.Immunities[Snare],
+	NpcEditor.Immunities[Blind],
+	NpcEditor.Immunities[Transform],
+	NpcEditor.Immunities[Sleep],
+	NpcEditor.Immunities[Taunt],
+	ProjectileEditor.GrappleOpts[MapAttribute],
+	ProjectileEditor.GrappleOpts[Player],
+	ProjectileEditor.GrappleOpts[NPC],
+	ProjectileEditor.GrappleOpts[Resource]
+
+--------------------------------------------------------------------------------
+2022-12-11 04:02:20.700 [Debug] StatusChanged: [NetIncomingMessage #0 10 bytes] [Disconnecting]
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,98 @@
+﻿2023-01-24 06:58:27.291 [Warn] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+
+--------------------------------------------------------------------------------
+2023-01-24 06:58:27.296 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+2023-01-24 06:58:27.890 [Info] Connecting to 26.82.96.248:5400...
+
+--------------------------------------------------------------------------------
+2023-01-24 06:58:28.169 [Info] Connection approved [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2023-01-24 06:58:28.218 [Debug] approval Time=7759476 Offset=63810132548683 Real=63810140308159
+
+--------------------------------------------------------------------------------
+2023-01-24 06:58:28.218 [Debug] local Time=7759476 Offset=63810132548742 Real=63810140308218
+
+--------------------------------------------------------------------------------
+2023-01-24 06:58:28.218 [Debug] real delta=58
+
+--------------------------------------------------------------------------------
+2023-01-24 06:58:28.218 [Debug] this.Statistics.Ping=0 NCPing=2
+
+--------------------------------------------------------------------------------
+2023-01-24 06:58:28.219 [Debug] Connection established to remote [00000000-0000-0000-0000-000000000000/26.82.96.248:5400].
+
+--------------------------------------------------------------------------------
+2023-01-24 06:58:28.219 [Info] Connected [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2023-01-24 06:58:30.090 [Warn] 'Me' is null.
+
+--------------------------------------------------------------------------------
+2023-01-24 06:58:30.298 [Debug] received epp: 7761329
+
+--------------------------------------------------------------------------------
+2023-01-24 06:58:32.657 [Debug] received epp: 7763954
+
+--------------------------------------------------------------------------------
+2023-01-24 07:00:10.512 [Debug] received epp: 7861794
+
+--------------------------------------------------------------------------------
+2023-01-24 07:00:15.893 [Info] System window closing (due to user interaction most likely).
+
+--------------------------------------------------------------------------------
+2023-01-24 07:00:16.962 [Info] System window closing (due to user interaction most likely).
+
+--------------------------------------------------------------------------------
+2023-01-24 07:00:16.964 [Debug] StatusChanged: [NetIncomingMessage #665 10 bytes] [Disconnecting]
+
+--------------------------------------------------------------------------------
+2023-01-24 07:00:16.966 [Debug] StatusChanged: [NetIncomingMessage #666 14 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
+2023-01-24 07:00:16.973 [Error] Received unhandled exception from Name:Intersect Client.exe
+There are no context policies.
+.
+
+--------------------------------------------------------------------------------
+2023-01-24 07:00:16.974 [Error] NetException: Got ack for message not yet sent?
+    Stack:    at Lidgren.Network.NetException.Assert(Boolean isOk, String message) in C:\Users\primero\git\agd\lidgren-network-gen3\Lidgren.Network\NetException.cs:line 62
+   at Lidgren.Network.NetReliableSenderChannel.ReceiveAcknowledge(Double now, Int32 seqNr) in C:\Users\primero\git\agd\lidgren-network-gen3\Lidgren.Network\NetReliableSenderChannel.cs:line 246
+   at Lidgren.Network.NetConnection.Heartbeat(Double now, UInt32 frameCounter) in C:\Users\primero\git\agd\lidgren-network-gen3\Lidgren.Network\NetConnection.cs:line 255
+   at Lidgren.Network.NetPeer.Heartbeat() in C:\Users\primero\git\agd\lidgren-network-gen3\Lidgren.Network\NetPeer.Internal.cs:line 379
+   at Lidgren.Network.NetPeer.ExecutePeerShutdown() in C:\Users\primero\git\agd\lidgren-network-gen3\Lidgren.Network\NetPeer.Internal.cs:line 268
+   at Lidgren.Network.NetPeer.NetworkLoop() in C:\Users\primero\git\agd\lidgren-network-gen3\Lidgren.Network\NetPeer.Internal.cs:line 236
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+
+--------------------------------------------------------------------------------
+2023-01-24 07:00:16.983 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-24 07:00:16.983 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-24 07:00:16.985 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-24 07:00:16.985 [Info] GC.SuppressFinalize (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-24 07:00:16.985 [Info] InternalDispose() completed. (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-24 07:00:16.985 [Info] Clearing instance... (2ms)
+
+--------------------------------------------------------------------------------
+2023-01-24 07:00:16.985 [Info] Releasing context lock... (2ms)
+
+--------------------------------------------------------------------------------
+2023-01-24 07:00:16.985 [Info] Released. (2ms)
+
+--------------------------------------------------------------------------------

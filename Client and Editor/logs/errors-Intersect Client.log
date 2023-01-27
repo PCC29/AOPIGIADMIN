@@ -1,0 +1,134 @@
+﻿2022-12-14 01:44:00.606 [Error] Error loading 'resources\music\rpg-theme_v001_looping.ogg'.
+2022-12-14 01:44:00.606 [Error] NoAudioHardwareException: Failed to init OpenALSoundController
+    Stack:    at Microsoft.Xna.Framework.Audio.OpenALSoundController.EnsureInitialized()
+   at Microsoft.Xna.Framework.Audio.SoundEffect.Initialize()
+   at Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance..ctor(Int32 sampleRate, AudioChannels channels)
+   at Intersect.Client.MonoGame.Audio.MonoMusicSource.LoadSong()
+
+Caused By
+TypeInitializationException: The type initializer for 'MonoGame.OpenAL.AL' threw an exception.
+    Stack:    at Microsoft.Xna.Framework.Audio.OpenALSoundController..ctor()
+   at Microsoft.Xna.Framework.Audio.OpenALSoundController.EnsureInitialized()
+
+Caused By
+Exception: Failed to load library: soft_oal.dll
+    Stack:    at MonoGame.Framework.Utilities.FuncLoader.LoadLibraryExt(String libname)
+   at MonoGame.OpenAL.AL..cctor()
+
+
+--------------------------------------------------------------------------------
+2022-12-14 01:44:05.151 [Error] Error loading 'resources\sounds\octave-tap-resonant.wav'.
+2022-12-14 01:44:05.151 [Error] NoAudioHardwareException: Audio has failed to initialize. Call SoundEffect.Initialize() before sound operation to get more specific errors.
+    Stack:    at Microsoft.Xna.Framework.Audio.SoundEffect..ctor(Stream stream)
+   at Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(Stream stream)
+   at Intersect.Client.MonoGame.Audio.MonoSoundSource.LoadSound()
+
+
+--------------------------------------------------------------------------------
+2022-12-14 01:44:07.528 [Error] Error loading 'resources\sounds\octave-tap-resonant.wav'.
+2022-12-14 01:44:07.528 [Error] NoAudioHardwareException: Audio has failed to initialize. Call SoundEffect.Initialize() before sound operation to get more specific errors.
+    Stack:    at Microsoft.Xna.Framework.Audio.SoundEffect..ctor(Stream stream)
+   at Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(Stream stream)
+   at Intersect.Client.MonoGame.Audio.MonoSoundSource.LoadSound()
+
+
+--------------------------------------------------------------------------------
+2022-12-14 01:44:07.864 [Error] Error loading 'resources\sounds\octave-tap-resonant.wav'.
+2022-12-14 01:44:07.864 [Error] NoAudioHardwareException: Audio has failed to initialize. Call SoundEffect.Initialize() before sound operation to get more specific errors.
+    Stack:    at Microsoft.Xna.Framework.Audio.SoundEffect..ctor(Stream stream)
+   at Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(Stream stream)
+   at Intersect.Client.MonoGame.Audio.MonoSoundSource.LoadSound()
+
+
+--------------------------------------------------------------------------------
+2022-12-14 01:44:07.909 [Error] Error loading 'resources\sounds\octave-tap-resonant.wav'.
+2022-12-14 01:44:07.909 [Error] NoAudioHardwareException: Audio has failed to initialize. Call SoundEffect.Initialize() before sound operation to get more specific errors.
+    Stack:    at Microsoft.Xna.Framework.Audio.SoundEffect..ctor(Stream stream)
+   at Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(Stream stream)
+   at Intersect.Client.MonoGame.Audio.MonoSoundSource.LoadSound()
+
+
+--------------------------------------------------------------------------------
+2022-12-14 01:44:07.950 [Error] Error loading 'resources\sounds\octave-tap-resonant.wav'.
+2022-12-14 01:44:07.950 [Error] NoAudioHardwareException: Audio has failed to initialize. Call SoundEffect.Initialize() before sound operation to get more specific errors.
+    Stack:    at Microsoft.Xna.Framework.Audio.SoundEffect..ctor(Stream stream)
+   at Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(Stream stream)
+   at Intersect.Client.MonoGame.Audio.MonoSoundSource.LoadSound()
+
+
+--------------------------------------------------------------------------------
+2022-12-14 01:44:08.253 [Error] Error loading 'resources\sounds\octave-tap-resonant.wav'.
+2022-12-14 01:44:08.253 [Error] NoAudioHardwareException: Audio has failed to initialize. Call SoundEffect.Initialize() before sound operation to get more specific errors.
+    Stack:    at Microsoft.Xna.Framework.Audio.SoundEffect..ctor(Stream stream)
+   at Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(Stream stream)
+   at Intersect.Client.MonoGame.Audio.MonoSoundSource.LoadSound()
+
+
+--------------------------------------------------------------------------------
+2022-12-14 01:44:08.582 [Error] Error loading 'resources\sounds\octave-tap-warm.wav'.
+2022-12-14 01:44:08.582 [Error] NoAudioHardwareException: Audio has failed to initialize. Call SoundEffect.Initialize() before sound operation to get more specific errors.
+    Stack:    at Microsoft.Xna.Framework.Audio.SoundEffect..ctor(Stream stream)
+   at Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(Stream stream)
+   at Intersect.Client.MonoGame.Audio.MonoSoundSource.LoadSound()
+
+
+--------------------------------------------------------------------------------
+2022-12-14 01:44:09.143 [Error] Error loading 'resources\sounds\octave-tap-resonant.wav'.
+2022-12-14 01:44:09.143 [Error] NoAudioHardwareException: Audio has failed to initialize. Call SoundEffect.Initialize() before sound operation to get more specific errors.
+    Stack:    at Microsoft.Xna.Framework.Audio.SoundEffect..ctor(Stream stream)
+   at Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(Stream stream)
+   at Intersect.Client.MonoGame.Audio.MonoSoundSource.LoadSound()
+
+
+--------------------------------------------------------------------------------
+2022-12-14 01:44:09.549 [Error] Error loading 'resources\sounds\octave-tap-resonant.wav'.
+2022-12-14 01:44:09.549 [Error] NoAudioHardwareException: Audio has failed to initialize. Call SoundEffect.Initialize() before sound operation to get more specific errors.
+    Stack:    at Microsoft.Xna.Framework.Audio.SoundEffect..ctor(Stream stream)
+   at Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(Stream stream)
+   at Intersect.Client.MonoGame.Audio.MonoSoundSource.LoadSound()
+
+
+--------------------------------------------------------------------------------
+2022-12-14 01:44:09.685 [Error] Error loading 'resources\sounds\octave-beep-tapped.wav'.
+2022-12-14 01:44:09.685 [Error] NoAudioHardwareException: Audio has failed to initialize. Call SoundEffect.Initialize() before sound operation to get more specific errors.
+    Stack:    at Microsoft.Xna.Framework.Audio.SoundEffect..ctor(Stream stream)
+   at Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(Stream stream)
+   at Intersect.Client.MonoGame.Audio.MonoSoundSource.LoadSound()
+
+
+--------------------------------------------------------------------------------
+2022-12-14 01:44:09.772 [Error] Error loading 'resources\sounds\octave-tap-resonant.wav'.
+2022-12-14 01:44:09.772 [Error] NoAudioHardwareException: Audio has failed to initialize. Call SoundEffect.Initialize() before sound operation to get more specific errors.
+    Stack:    at Microsoft.Xna.Framework.Audio.SoundEffect..ctor(Stream stream)
+   at Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(Stream stream)
+   at Intersect.Client.MonoGame.Audio.MonoSoundSource.LoadSound()
+
+
+--------------------------------------------------------------------------------
+2022-12-14 01:44:09.987 [Error] Error loading 'resources\sounds\octave-tap-resonant.wav'.
+2022-12-14 01:44:09.987 [Error] NoAudioHardwareException: Audio has failed to initialize. Call SoundEffect.Initialize() before sound operation to get more specific errors.
+    Stack:    at Microsoft.Xna.Framework.Audio.SoundEffect..ctor(Stream stream)
+   at Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(Stream stream)
+   at Intersect.Client.MonoGame.Audio.MonoSoundSource.LoadSound()
+
+
+--------------------------------------------------------------------------------
+2023-01-24 07:00:16.973 [Error] Received unhandled exception from Name:Intersect Client.exe
+There are no context policies.
+.
+
+--------------------------------------------------------------------------------
+2023-01-24 07:00:16.981 [Error] NetException: Got ack for message not yet sent?
+    Stack:    at Lidgren.Network.NetException.Assert(Boolean isOk, String message) in C:\Users\primero\git\agd\lidgren-network-gen3\Lidgren.Network\NetException.cs:line 62
+   at Lidgren.Network.NetReliableSenderChannel.ReceiveAcknowledge(Double now, Int32 seqNr) in C:\Users\primero\git\agd\lidgren-network-gen3\Lidgren.Network\NetReliableSenderChannel.cs:line 246
+   at Lidgren.Network.NetConnection.Heartbeat(Double now, UInt32 frameCounter) in C:\Users\primero\git\agd\lidgren-network-gen3\Lidgren.Network\NetConnection.cs:line 255
+   at Lidgren.Network.NetPeer.Heartbeat() in C:\Users\primero\git\agd\lidgren-network-gen3\Lidgren.Network\NetPeer.Internal.cs:line 379
+   at Lidgren.Network.NetPeer.ExecutePeerShutdown() in C:\Users\primero\git\agd\lidgren-network-gen3\Lidgren.Network\NetPeer.Internal.cs:line 268
+   at Lidgren.Network.NetPeer.NetworkLoop() in C:\Users\primero\git\agd\lidgren-network-gen3\Lidgren.Network\NetPeer.Internal.cs:line 236
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+
+--------------------------------------------------------------------------------

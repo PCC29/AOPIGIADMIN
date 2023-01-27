@@ -1,0 +1,41 @@
+﻿2023-01-03 14:20:31.562 [Info] Connecting to 26.82.96.248:5400...
+
+--------------------------------------------------------------------------------
+2023-01-03 14:20:31.968 [Info] Connection approved [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2023-01-03 14:20:32.007 [Debug] approval Time=337545 Offset=63808352094401 Real=63808352431947
+
+--------------------------------------------------------------------------------
+2023-01-03 14:20:32.007 [Debug] local Time=337545 Offset=63808352094461 Real=63808352432007
+
+--------------------------------------------------------------------------------
+2023-01-03 14:20:32.013 [Debug] real delta=66
+
+--------------------------------------------------------------------------------
+2023-01-03 14:20:32.013 [Debug] this.Statistics.Ping=0 NCPing=2
+
+--------------------------------------------------------------------------------
+2023-01-03 14:20:32.014 [Debug] Connection established to remote [00000000-0000-0000-0000-000000000000/26.82.96.248:5400].
+
+--------------------------------------------------------------------------------
+2023-01-03 14:20:32.014 [Info] Connected [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2023-01-03 14:44:09.421 [Error] FileNotFoundException: resources/items/potion_14.png
+    Stack:    at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at Intersect.Editor.Forms.Editors.FrmItem.DrawItemIcon()
+   at Intersect.Editor.Forms.Editors.FrmItem.cmbPic_SelectedIndexChanged(Object sender, EventArgs e)
+   at System.Windows.Forms.ComboBox.OnSelectedIndexChanged(EventArgs e)
+   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at Intersect.Editor.Forms.Editors.FrmItem.UpdateEditor()
+   at Intersect.Editor.Forms.Editors.FrmItem.AssignEditorItem(Guid id)
+   at Intersect.Editor.Forms.Controls.GameObjectList.GameObjectList_AfterSelect(Object sender, TreeViewEventArgs e)
+   at System.Windows.Forms.TreeView.OnAfterSelect(TreeViewEventArgs e)
+   at System.Windows.Forms.TreeView.TvnSelected(NMTREEVIEW* nmtv)
+   at System.Windows.Forms.TreeView.WmNotify(Message& m)
+   at System.Windows.Forms.TreeView.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+--------------------------------------------------------------------------------
