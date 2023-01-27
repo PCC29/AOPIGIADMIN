@@ -1,0 +1,48 @@
+﻿2023-01-27 13:58:29.189 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+2023-01-27 13:58:29.194 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+2023-01-27 13:58:31.077 [Warn] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+
+--------------------------------------------------------------------------------
+2023-01-27 13:58:31.077 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+Listening on 0.0.0.0:5400.
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
+NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
+    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
+
+
+--------------------------------------------------------------------------------
+2023-01-27 13:58:48.085 [Debug] hail Time=0 Offset=63810424727709 Real=63810424727709
+
+--------------------------------------------------------------------------------
+2023-01-27 13:58:48.085 [Debug] local Time=17076 Offset=63810424711007 Real=63810424728084
+
+--------------------------------------------------------------------------------
+2023-01-27 13:58:48.085 [Debug] real delta=374
+
+--------------------------------------------------------------------------------
+2023-01-27 13:58:48.085 [Debug] NCPing=-1000
+
+--------------------------------------------------------------------------------
+2023-01-27 13:58:48.154 [Info] Connection approved [a5e4d9ef-7f8f-4822-8396-33390667005d].
+
+--------------------------------------------------------------------------------
+2023-01-27 13:58:48.170 [Debug] Connection established to remote [a5e4d9ef-7f8f-4822-8396-33390667005d/26.82.96.248:49587].
+
+--------------------------------------------------------------------------------
+2023-01-27 13:58:48.171 [Info] Connected [a5e4d9ef-7f8f-4822-8396-33390667005d].
+
+--------------------------------------------------------------------------------
