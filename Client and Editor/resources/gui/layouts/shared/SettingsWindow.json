@@ -7389,7 +7389,7 @@
             "ClickSound": ""
           },
           "ControlOpenInventoryLabel": {
-            "Bounds": "14,683,59,16",
+            "Bounds": "14,683,97,16",
             "Padding": "0,0,0,0",
             "AlignmentEdgeDistances": "0,0,0,0",
             "AlignmentTransform": "0,0",
@@ -7813,7 +7813,7 @@
             "ClickSound": ""
           },
           "ControlOpenSpellsLabel": {
-            "Bounds": "14,811,71,16",
+            "Bounds": "14,811,75,16",
             "Padding": "0,0,0,0",
             "AlignmentEdgeDistances": "0,0,0,0",
             "AlignmentTransform": "0,0",
