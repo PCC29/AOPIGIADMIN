@@ -227,3 +227,34 @@ NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundExcepti
 --------------------------------------------------------------------------------
 =======
 >>>>>>> 4aad5759bbde49a3f7487bbdae639302dc352284
+2023-01-30 13:34:09.480 [Error] Failed to save user: PCC
+2023-01-30 13:34:09.480 [Error] DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+    Stack:    at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Intersect.Server.Database.IntersectDbContext`1.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Intersect.Server.Database.IntersectDbContext`1.SaveChanges()
+   at Intersect.Server.Database.PlayerData.User.Save(Boolean force)
+
+Caused By
+SqliteException: SQLite Error 1: 'no such column: StatBuffs'.
+    Stack:    at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.<PrepareAndEnumerateStatements>d__62.MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+
+
+--------------------------------------------------------------------------------
+2023-01-30 13:34:09.482 [Error] Received unhandled exception from System.Threading.Thread.
+
+--------------------------------------------------------------------------------
+2023-01-30 13:34:09.482 [Error] Exception: Failed to save user, shutting down to prevent rollbacks!
+
+
+--------------------------------------------------------------------------------

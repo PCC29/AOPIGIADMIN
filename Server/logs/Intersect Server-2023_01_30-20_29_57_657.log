@@ -122,3 +122,82 @@ Successfully auto port forwarded tcp port 5400 using UPnP.
 2023-01-30 13:31:52.243 [Debug] Client disconnected (PCC->[editor])
 
 --------------------------------------------------------------------------------
+2023-01-30 13:34:09.440 [Debug] StatusChanged: [NetIncomingMessage #0 10 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
+2023-01-30 13:34:09.440 [Debug] Connection terminated to remote [c507b0d4-6a06-4d31-8fae-9683fd3ebc9a/26.82.96.248:57272].
+
+--------------------------------------------------------------------------------
+2023-01-30 13:34:09.440 [Info] Disconnected [c507b0d4-6a06-4d31-8fae-9683fd3ebc9a].
+
+--------------------------------------------------------------------------------
+2023-01-30 13:34:09.440 [Debug] Client disconnected (PCC->PCC)
+
+--------------------------------------------------------------------------------
+2023-01-30 13:34:09.480 [Error] Failed to save user: PCC
+2023-01-30 13:34:09.480 [Error] DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+    Stack:    at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Intersect.Server.Database.IntersectDbContext`1.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Intersect.Server.Database.IntersectDbContext`1.SaveChanges()
+   at Intersect.Server.Database.PlayerData.User.Save(Boolean force)
+
+Caused By
+SqliteException: SQLite Error 1: 'no such column: StatBuffs'.
+    Stack:    at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.<PrepareAndEnumerateStatements>d__62.MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+
+
+--------------------------------------------------------------------------------
+2023-01-30 13:34:09.482 [Error] Received unhandled exception from System.Threading.Thread.
+
+--------------------------------------------------------------------------------
+2023-01-30 13:34:09.482 [Error] Exception: Failed to save user, shutting down to prevent rollbacks!
+
+
+--------------------------------------------------------------------------------
+2023-01-30 13:34:09.483 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-30 13:34:09.483 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-30 13:34:09.483 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-30 13:34:09.485 [Info] Disposing network... (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-30 13:34:09.486 [Info] Saving updated server variable values
+
+--------------------------------------------------------------------------------
+2023-01-30 13:34:09.486 [Info] Saving online users/players... (1ms)
+
+--------------------------------------------------------------------------------
+2023-01-30 13:34:09.486 [Info] Saving loaded guilds....
+
+--------------------------------------------------------------------------------
+2023-01-30 13:34:09.486 [Info] Online users/players saved. (1ms)
+
+--------------------------------------------------------------------------------
+2023-01-30 13:34:09.486 [Info] Shutting down the API... (1ms)
+
+--------------------------------------------------------------------------------
+2023-01-30 13:34:09.490 [Info] Shutting down the console thread... (5ms)
+
+--------------------------------------------------------------------------------
+2023-01-30 13:34:10.498 [Info] Base dispose. (1013ms)
+
+--------------------------------------------------------------------------------
+2023-01-30 13:34:10.498 [Info] Finished disposing server context. (1014ms)
+
+--------------------------------------------------------------------------------
