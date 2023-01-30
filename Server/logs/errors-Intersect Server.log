@@ -224,3 +224,99 @@ NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundExcepti
 
 
 --------------------------------------------------------------------------------
+2023-01-30 13:49:18.633 [Error] Jackpot! Concurrency Bug For PCC
+2023-01-30 13:49:18.633 [Error] DbUpdateConcurrencyException: Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+    Stack:    at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ThrowAggregateUpdateConcurrencyException(Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithoutPropagation(Int32 commandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Intersect.Server.Database.IntersectDbContext`1.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Intersect.Server.Database.IntersectDbContext`1.SaveChanges()
+   at Intersect.Server.Database.PlayerData.User.Save(Boolean force)
+
+
+--------------------------------------------------------------------------------
+2023-01-30 13:49:18.634 [Error] Entry Type [Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry]
+--------------------
+Id (Token: False): Proposed: 03802d4d-7048-42c0-9576-62534188fc44  Original Value: 03802d4d-7048-42c0-9576-62534188fc44  Database Value: null
+BagId (Token: False): Proposed:   Original Value:   Database Value: null
+ItemId (Token: False): Proposed: 00000000-0000-0000-0000-000000000000  Original Value: 00000000-0000-0000-0000-000000000000  Database Value: null
+PlayerId (Token: False): Proposed: ff85c994-427b-4f09-b1b1-a11f05cf0ec4  Original Value: ff85c994-427b-4f09-b1b1-a11f05cf0ec4  Database Value: null
+Quantity (Token: False): Proposed: 0  Original Value: 0  Database Value: null
+Slot (Token: False): Proposed: 95  Original Value: 95  Database Value: null
+StatBuffsJson (Token: False): Proposed: [0,0,0,0,0]  Original Value: [0,0,0,0,0]  Database Value: null
+
+
+
+
+--------------------------------------------------------------------------------
+2023-01-30 13:49:18.636 [Error] Received unhandled exception from System.Threading.Thread.
+
+--------------------------------------------------------------------------------
+2023-01-30 13:49:18.636 [Error] Exception: Failed to save user, shutting down to prevent rollbacks!
+
+
+--------------------------------------------------------------------------------
+2023-01-30 13:49:18.651 [Error] Received unhandled exception from Name:Intersect Server.exe
+There are no context policies.
+.
+
+--------------------------------------------------------------------------------
+2023-01-30 13:49:18.652 [Error] AggregateException: One or more errors occurred.
+    Stack:    at System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout)
+   at System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   at Intersect.Server.Core.ServerContext.Dispose(Boolean disposing)
+   at Intersect.Core.ApplicationContext`2.InternalDispose()
+   at Intersect.Threading.ConcurrentInstance`1.ClearWith(TInstance instance, Action action)
+   at Intersect.Core.ApplicationContext`2.Dispose()
+   at Intersect.Server.Core.Bootstrapper.ConsoleCtrlCheck(CtrlTypes ctrlType)
+
+Caused By
+DbUpdateConcurrencyException: Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+    Stack:    at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ThrowAggregateUpdateConcurrencyException(Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithoutPropagation(Int32 commandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Intersect.Server.Database.IntersectDbContext`1.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Intersect.Server.Database.IntersectDbContext`1.SaveChanges()
+   at Intersect.Server.Database.PlayerData.Players.Guild.Save()
+   at Intersect.Server.Core.ServerContext.<>c__DisplayClass12_1.<Dispose>b__1()
+   at System.Threading.Tasks.Task.Execute()
+
+
+--------------------------------------------------------------------------------
+2023-01-30 13:49:18.654 [Error] Caused by:
+
+--------------------------------------------------------------------------------
+2023-01-30 13:49:18.654 [Error] DbUpdateConcurrencyException: Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+    Stack:    at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ThrowAggregateUpdateConcurrencyException(Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithoutPropagation(Int32 commandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Intersect.Server.Database.IntersectDbContext`1.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Intersect.Server.Database.IntersectDbContext`1.SaveChanges()
+   at Intersect.Server.Database.PlayerData.Players.Guild.Save()
+   at Intersect.Server.Core.ServerContext.<>c__DisplayClass12_1.<Dispose>b__1()
+   at System.Threading.Tasks.Task.Execute()
+
+
+--------------------------------------------------------------------------------
