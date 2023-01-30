@@ -169,7 +169,6 @@ System.Reflection.TargetInvocationException: Exception has been thrown by the ta
    at Intersect.Server.Web.RestApi.RestApi.Start()
 
 --------------------------------------------------------------------------------
-<<<<<<< HEAD
 UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
 NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
     Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
@@ -225,5 +224,3 @@ NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundExcepti
 
 
 --------------------------------------------------------------------------------
-=======
->>>>>>> 4aad5759bbde49a3f7487bbdae639302dc352284
