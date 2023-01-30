@@ -410,3 +410,61 @@ NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundExcepti
 
 
 --------------------------------------------------------------------------------
+<<<<<<< HEAD
+UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
+NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
+    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
+
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
+NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
+    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
+
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
+NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
+    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
+
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
+NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
+    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
+
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
+NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
+    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
+
+
+--------------------------------------------------------------------------------
+=======
+>>>>>>> 4aad5759bbde49a3f7487bbdae639302dc352284
