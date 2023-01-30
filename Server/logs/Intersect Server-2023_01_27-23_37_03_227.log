@@ -1,0 +1,83 @@
+﻿2023-01-27 16:37:04.261 [Warn] FileNotFoundException: Missing configuration file.
+    Stack:    at Intersect.Configuration.ConfigurationHelper.Load[T](T configuration, String filePath, Boolean failQuietly)
+   at Intersect.Configuration.ConfigurationHelper.LoadSafely[T](T configuration, String filePath)
+
+
+--------------------------------------------------------------------------------
+2023-01-27 16:37:22.765 [Info] Checking for broken Quest Task Completion Events, this process might take several minutes depending on your quest count!
+
+--------------------------------------------------------------------------------
+2023-01-27 16:37:26.370 [Info] Checking to see if there are any guilds exceeding the configured max bank size...
+
+--------------------------------------------------------------------------------
+2023-01-27 16:37:31.310 [Warn] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+
+--------------------------------------------------------------------------------
+2023-01-27 16:37:31.311 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+Listening on 0.0.0.0:5400.
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
+NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
+    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
+
+
+--------------------------------------------------------------------------------
+2023-01-27 16:37:38.187 [Info] Connection approved [6a2371d5-b618-4849-843d-63bbc40f321e].
+
+--------------------------------------------------------------------------------
+2023-01-27 16:37:38.282 [Info] Connected [6a2371d5-b618-4849-843d-63bbc40f321e].
+
+--------------------------------------------------------------------------------
+2023-01-27 16:37:47.379 [Info] Connection approved [64873541-5f41-40b4-98d1-fdaf9b757758].
+
+--------------------------------------------------------------------------------
+2023-01-27 16:37:47.408 [Info] Connected [64873541-5f41-40b4-98d1-fdaf9b757758].
+
+--------------------------------------------------------------------------------
+2023-01-27 16:39:22.847 [Info] Disconnected [6a2371d5-b618-4849-843d-63bbc40f321e].
+
+--------------------------------------------------------------------------------
+2023-01-27 17:14:40.727 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-27 17:14:40.727 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-27 17:14:40.730 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-27 17:14:40.738 [Info] Disposing network... (1ms)
+
+--------------------------------------------------------------------------------
+2023-01-27 17:14:40.741 [Info] Saving updated server variable values
+
+--------------------------------------------------------------------------------
+2023-01-27 17:14:40.741 [Info] Saving online users/players... (5ms)
+
+--------------------------------------------------------------------------------
+2023-01-27 17:14:40.789 [Info] Saving loaded guilds....
+
+--------------------------------------------------------------------------------
+2023-01-27 17:14:40.789 [Info] Online users/players saved. (53ms)
+
+--------------------------------------------------------------------------------
+2023-01-27 17:14:40.789 [Info] Shutting down the API... (53ms)
+
+--------------------------------------------------------------------------------
+2023-01-27 17:14:40.790 [Info] Shutting down the console thread... (54ms)
+
+--------------------------------------------------------------------------------
+2023-01-27 17:14:41.802 [Info] Base dispose. (1066ms)
+
+--------------------------------------------------------------------------------
+2023-01-27 17:14:41.802 [Info] Finished disposing server context. (1066ms)
+
+--------------------------------------------------------------------------------

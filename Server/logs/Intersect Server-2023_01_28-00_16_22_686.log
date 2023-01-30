@@ -1,0 +1,93 @@
+﻿2023-01-27 17:16:29.825 [Warn] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+
+--------------------------------------------------------------------------------
+2023-01-27 17:16:29.835 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+Listening on 0.0.0.0:5400.
+
+--------------------------------------------------------------------------------
+2023-01-27 17:16:34.735 [Info] Connection approved [dbc1acfb-62e0-40ca-a63d-4a59f0fc66ae].
+
+--------------------------------------------------------------------------------
+2023-01-27 17:16:34.761 [Info] Connected [dbc1acfb-62e0-40ca-a63d-4a59f0fc66ae].
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
+NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
+    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
+
+
+--------------------------------------------------------------------------------
+2023-01-27 18:21:41.039 [Info] Disconnected [dbc1acfb-62e0-40ca-a63d-4a59f0fc66ae].
+
+--------------------------------------------------------------------------------
+2023-01-27 18:22:07.727 [Info] Connection approved [cf5c80bc-dcb8-4693-bc3f-2e98ce40e00f].
+
+--------------------------------------------------------------------------------
+2023-01-27 18:22:07.740 [Info] Connected [cf5c80bc-dcb8-4693-bc3f-2e98ce40e00f].
+
+--------------------------------------------------------------------------------
+2023-01-27 18:22:08.981 [Info] Connection approved [6115ac08-6821-4176-ad2f-8de7f2045862].
+
+--------------------------------------------------------------------------------
+2023-01-27 18:22:09.003 [Info] Connected [6115ac08-6821-4176-ad2f-8de7f2045862].
+
+--------------------------------------------------------------------------------
+2023-01-27 18:28:11.813 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-27 18:28:11.813 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-27 18:28:11.816 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-27 18:28:11.823 [Info] Disposing network... (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-27 18:28:11.826 [Info] Saving updated server variable values
+
+--------------------------------------------------------------------------------
+2023-01-27 18:28:11.827 [Info] Saving online users/players... (4ms)
+
+--------------------------------------------------------------------------------
+2023-01-27 18:28:11.889 [Info] Saving loaded guilds....
+
+--------------------------------------------------------------------------------
+2023-01-27 18:28:11.889 [Info] Online users/players saved. (66ms)
+
+--------------------------------------------------------------------------------
+2023-01-27 18:28:11.905 [Info] Shutting down the API... (82ms)
+
+--------------------------------------------------------------------------------
+2023-01-27 18:28:11.906 [Info] Shutting down the console thread... (83ms)
+
+--------------------------------------------------------------------------------
+2023-01-27 18:28:12.922 [Error] Received unhandled exception from System.Threading.Thread.
+
+--------------------------------------------------------------------------------
+2023-01-27 18:28:12.923 [Error] ThreadAbortException: Thread was being aborted.
+    Stack:    at System.IO.__ConsoleStream.WaitForAvailableConsoleInput(SafeFileHandle file, Boolean isPipe)
+   at System.IO.__ConsoleStream.ReadFileNative(SafeFileHandle hFile, Byte[] bytes, Int32 offset, Int32 count, Boolean useFileAPIs, Boolean isPipe, Int32& bytesRead)
+   at System.IO.__ConsoleStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at System.IO.TextReader.SyncTextReader.ReadLine()
+   at System.Console.ReadLine()
+   at Intersect.Console.ReadLine()
+   at Intersect.Server.Core.ConsoleService.ConsoleThread.ThreadStart(ServerContext serverContext)
+
+
+--------------------------------------------------------------------------------
+2023-01-27 18:28:12.931 [Info] Base dispose. (1108ms)
+
+--------------------------------------------------------------------------------
+2023-01-27 18:28:12.931 [Info] Finished disposing server context. (1108ms)
+
+--------------------------------------------------------------------------------

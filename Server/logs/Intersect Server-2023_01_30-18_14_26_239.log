@@ -1,0 +1,65 @@
+﻿2023-01-30 11:14:32.522 [Warn] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+
+--------------------------------------------------------------------------------
+2023-01-30 11:14:32.537 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+Listening on 0.0.0.0:5400.
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
+NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
+    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
+
+
+--------------------------------------------------------------------------------
+2023-01-30 11:14:47.420 [Info] Connection approved [1876a3f0-6d26-4a6b-bfca-0741fb0b7b56].
+
+--------------------------------------------------------------------------------
+2023-01-30 11:14:47.456 [Info] Connected [1876a3f0-6d26-4a6b-bfca-0741fb0b7b56].
+
+--------------------------------------------------------------------------------
+2023-01-30 11:15:12.687 [Info] Disconnected [1876a3f0-6d26-4a6b-bfca-0741fb0b7b56].
+
+--------------------------------------------------------------------------------
+2023-01-30 11:15:22.540 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-30 11:15:22.540 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-30 11:15:22.540 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-30 11:15:22.540 [Info] Disposing network... (1ms)
+
+--------------------------------------------------------------------------------
+2023-01-30 11:15:22.540 [Info] Saving updated server variable values
+
+--------------------------------------------------------------------------------
+2023-01-30 11:15:22.540 [Info] Saving online users/players... (4ms)
+
+--------------------------------------------------------------------------------
+2023-01-30 11:15:22.540 [Info] Saving loaded guilds....
+
+--------------------------------------------------------------------------------
+2023-01-30 11:15:22.540 [Info] Online users/players saved. (4ms)
+
+--------------------------------------------------------------------------------
+2023-01-30 11:15:22.540 [Info] Shutting down the API... (4ms)
+
+--------------------------------------------------------------------------------
+2023-01-30 11:15:22.540 [Info] Shutting down the console thread... (5ms)
+
+--------------------------------------------------------------------------------
+2023-01-30 11:15:23.544 [Info] Base dispose. (995ms)
+
+--------------------------------------------------------------------------------
+2023-01-30 11:15:23.544 [Info] Finished disposing server context. (995ms)
+
+--------------------------------------------------------------------------------
