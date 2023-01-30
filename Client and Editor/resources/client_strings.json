@@ -120,7 +120,7 @@
     "channel": "Channel:",
     "channels": {
       "0": "local",
-      "1": "global",
+      "1": "",
       "2": "party",
       "3": "guild"
     },
@@ -136,7 +136,7 @@
       "All": "All",
       "Local": "Local",
       "Party": "Party",
-      "Global": "Global",
+      "Global": "",
       "Guild": "Guild",
       "System": "System"
     }
@@ -497,7 +497,14 @@
       "Uncommon": "Uncommon",
       "Rare": "Rare",
       "Epic": "Epic",
-      "Legendary": "Legendary"
+      "Legendary": "Legendary",
+      "Phổ biến": "Phổ biến",
+      "Ít phổ biến": "Ít phổ biến",
+      "Hiếm": "Hiếm",
+      "Cổ": "Cổ",
+      "Huyền thoại": "Huyền thoại",
+      "Huyền bí": "Huyền bí",
+      "Độc lạ": "Độc lạ"
     },
     "Description": "{00}",
     "CastSpell": "Casts Spell: {00}",
@@ -992,7 +999,7 @@
     "title": "Kỹ năng"
   },
   "Trading": {
-    "accept": "Accept",
+    "accept": "Chấp nhận",
     "infight": "You are currently fighting!",
     "offeritem": "Offer Item",
     "offeritemprompt": "How many/much {00} would you like to offer?",

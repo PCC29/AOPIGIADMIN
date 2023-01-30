@@ -369,11 +369,13 @@
   "Items": {
     "RarityTiers": [
       "None",
-      "Common",
-      "Uncommon",
-      "Rare",
-      "Epic",
-      "Legendary"
+      "Phổ biến",
+      "Ít phổ biến",
+      "Hiếm",
+      "Cổ",
+      "Huyền thoại",
+      "Huyền bí",
+      "Độc lạ"
     ]
   },
   "Passability": {

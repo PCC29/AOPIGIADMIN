@@ -1513,7 +1513,14 @@
       "Uncommon": "Uncommon",
       "Rare": "Rare",
       "Epic": "Epic",
-      "Legendary": "Legendary"
+      "Legendary": "Legendary",
+      "Phổ biến": "1:Phổ biến",
+      "Ít phổ biến": "2:Ít phổ biến",
+      "Hiếm": "3:Hiếm",
+      "Cổ": "4:Cổ",
+      "Huyền thoại": "5:Huyền thoại",
+      "Huyền bí": "6:Huyền bí",
+      "Độc lạ": "7:Độc lạ"
     },
     "projectile": "Projectile:",
     "requirementsgroup": "Requirements",
