@@ -4,12 +4,11 @@
     "http://localhost:5400"
   ],
   "Cors": [],
-  "DataProtectionKey": "0A64819057F0B24063B4468B2C5B2B578014D0E61EC36325ADCCFA1F8E98402C",
-  "Enabled": true,
-  "DebugMode": true,
+  "DataProtectionKey": "9B470F18AB0BAECE512BB7D6D9810D6D6E1A2A5769D93AAD6EBE0845CD61E85F",
+  "Enabled": false,
+  "DebugMode": false,
   "AllowedNetworkTypes": 1,
-  "SeedMode": false,
-  "RefreshTokenLifetime": 15,
+  "RefreshTokenLifetime": 10080,
   "ThrottlePolicy": {
     "IpThrottling": true,
     "IpWhitelist": [],
@@ -38,8 +37,8 @@
     },
     "StackBlockedRequests": true,
     "Rates": {
-      "Second": 60,
-      "Minute": 120
+      "Second": 1,
+      "Minute": 60
     }
   },
   "FallbackClientKey": "test",

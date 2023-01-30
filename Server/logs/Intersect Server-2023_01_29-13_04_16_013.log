@@ -1,0 +1,419 @@
+﻿2023-01-29 06:04:22.690 [Warn] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+
+--------------------------------------------------------------------------------
+2023-01-29 06:04:22.695 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+Listening on 0.0.0.0:5400.
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
+NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
+    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
+
+
+--------------------------------------------------------------------------------
+2023-01-29 06:04:59.669 [Info] Connection approved [ee531667-4a0a-4944-9f58-b686d56aa9e3].
+
+--------------------------------------------------------------------------------
+2023-01-29 06:04:59.699 [Info] Connected [ee531667-4a0a-4944-9f58-b686d56aa9e3].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:12:20.840 [Info] Disconnected [ee531667-4a0a-4944-9f58-b686d56aa9e3].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:12:24.912 [Info] Connection approved [2c16200c-7437-4fd6-a523-18da722f672c].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:12:24.922 [Info] Connected [2c16200c-7437-4fd6-a523-18da722f672c].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:15:41.763 [Info] Connection approved [177dbc1d-5e3c-48ac-8063-a6093f07a439].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:15:41.783 [Info] Connected [177dbc1d-5e3c-48ac-8063-a6093f07a439].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:18:51.188 [Info] Disconnected [177dbc1d-5e3c-48ac-8063-a6093f07a439].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:20:07.549 [Info] Disconnected [2c16200c-7437-4fd6-a523-18da722f672c].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:22:10.065 [Info] Connection approved [ea2a53ee-da08-4f73-ad69-9a71e1e15772].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:22:10.088 [Info] Connected [ea2a53ee-da08-4f73-ad69-9a71e1e15772].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:26:54.731 [Info] Connection approved [3e9a9ea0-36b6-43b4-95db-9e8089f10aee].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:26:54.745 [Info] Connected [3e9a9ea0-36b6-43b4-95db-9e8089f10aee].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:30:58.411 [Info] Disconnected [3e9a9ea0-36b6-43b4-95db-9e8089f10aee].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:33:05.107 [Info] Disconnected [ea2a53ee-da08-4f73-ad69-9a71e1e15772].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:33:10.692 [Info] Connection approved [9a207d90-2034-4c77-9f63-04e0725059b2].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:33:10.704 [Info] Connected [9a207d90-2034-4c77-9f63-04e0725059b2].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:33:27.826 [Info] Disconnected [9a207d90-2034-4c77-9f63-04e0725059b2].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:43:40.602 [Info] Connection approved [c490f3d1-7fad-41f7-a02b-3ece375c4da1].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:43:40.624 [Info] Connected [c490f3d1-7fad-41f7-a02b-3ece375c4da1].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:47:52.791 [Info] Connection approved [bf677942-786f-4496-bae5-8cf097b0f851].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:47:52.815 [Info] Connected [bf677942-786f-4496-bae5-8cf097b0f851].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:48:16.381 [Info] Disconnected [bf677942-786f-4496-bae5-8cf097b0f851].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:52:00.397 [Info] Connection approved [40234b2a-8907-4025-921e-199d4fbcc869].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:52:00.418 [Info] Connected [40234b2a-8907-4025-921e-199d4fbcc869].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:52:29.767 [Info] Disconnected [40234b2a-8907-4025-921e-199d4fbcc869].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:53:56.417 [Info] Connection approved [0f070f35-3d23-4ec0-9967-7cf723beb50a].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:53:56.434 [Info] Connected [0f070f35-3d23-4ec0-9967-7cf723beb50a].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:55:19.261 [Info] Disconnected [c490f3d1-7fad-41f7-a02b-3ece375c4da1].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:55:51.725 [Info] Disconnected [0f070f35-3d23-4ec0-9967-7cf723beb50a].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:56:08.955 [Info] Connection approved [dbd6f274-59e4-4840-801d-a4427869a870].
+
+--------------------------------------------------------------------------------
+2023-01-29 07:56:08.975 [Info] Connected [dbd6f274-59e4-4840-801d-a4427869a870].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:02:41.696 [Info] Disconnected [dbd6f274-59e4-4840-801d-a4427869a870].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:02:47.893 [Info] Connection approved [196bc6de-387a-41ed-bca7-226c1413dd4e].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:02:47.912 [Info] Connected [196bc6de-387a-41ed-bca7-226c1413dd4e].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:02:54.171 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:03:03.875 [Info] Disconnected [196bc6de-387a-41ed-bca7-226c1413dd4e].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:03:19.845 [Info] Connection approved [f82c50ca-11e6-4780-aefd-e3c5dd118368].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:03:19.872 [Info] Connected [f82c50ca-11e6-4780-aefd-e3c5dd118368].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:30.396 [Info] Connection approved [294e0cbd-7215-4657-a4d1-51f1e8e62bc6].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:30.413 [Info] Connected [294e0cbd-7215-4657-a4d1-51f1e8e62bc6].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:39.299 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:39.791 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:40.344 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:40.883 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:41.388 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:41.900 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:42.403 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:42.899 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:43.408 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:43.909 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:44.409 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:44.974 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:45.478 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:45.989 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:46.496 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:47.003 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:47.525 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:48.077 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:48.588 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:49.090 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:49.616 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:50.160 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:50.682 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:51.175 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:51.740 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:52.251 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:52.743 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:53.256 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:53.818 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:54.313 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:54.863 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:55.431 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:55.993 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:56.546 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:57.052 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:57.548 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:58.061 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:58.562 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:59.124 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:05:59.713 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:00.234 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:00.795 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:01.305 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:01.802 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:02.372 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:02.926 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:03.425 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:03.987 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:04.487 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:05.006 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:05.523 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:06.041 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:06.532 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:07.041 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:07.602 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:08.106 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:08.599 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:09.118 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:09.617 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:10.122 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:10.620 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:06:10.969 [Info] Disconnected [294e0cbd-7215-4657-a4d1-51f1e8e62bc6].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:07:49.993 [Info] Connection approved [930279d3-df09-4780-8ffa-d2e5e9e97035].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:07:50.016 [Info] Connected [930279d3-df09-4780-8ffa-d2e5e9e97035].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:08:15.015 [Info] Disconnected [930279d3-df09-4780-8ffa-d2e5e9e97035].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:08:34.399 [Info] Connection approved [5d62f846-785f-485f-97a6-930c6f56ca8c].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:08:34.421 [Info] Connected [5d62f846-785f-485f-97a6-930c6f56ca8c].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:31:36.770 [Info] Disconnected [5d62f846-785f-485f-97a6-930c6f56ca8c].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:32:07.849 [Info] Connection approved [865ce41a-9cc2-4088-bae4-c80ce50dd4cc].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:32:07.875 [Info] Connected [865ce41a-9cc2-4088-bae4-c80ce50dd4cc].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:40:35.525 [Info] Disconnected [865ce41a-9cc2-4088-bae4-c80ce50dd4cc].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:40:41.819 [Info] Connection approved [cde34a43-0511-4b8e-b7f1-a2b23c5eca50].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:40:41.847 [Info] Connected [cde34a43-0511-4b8e-b7f1-a2b23c5eca50].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:42:41.130 [Info] Disconnected [cde34a43-0511-4b8e-b7f1-a2b23c5eca50].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:42:47.005 [Info] Connection approved [b817f20f-2b28-4d45-a764-52bd7dcb64ec].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:42:47.022 [Info] Connected [b817f20f-2b28-4d45-a764-52bd7dcb64ec].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:52:05.081 [Info] Disconnected [b817f20f-2b28-4d45-a764-52bd7dcb64ec].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:54:33.500 [Info] Connection approved [b80a33b0-f1fd-44ca-9b7e-5b442cd4a74a].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:54:33.583 [Info] Connected [b80a33b0-f1fd-44ca-9b7e-5b442cd4a74a].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:57:14.358 [Info] Disconnected [b80a33b0-f1fd-44ca-9b7e-5b442cd4a74a].
+
+--------------------------------------------------------------------------------
+2023-01-29 08:58:03.775 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:58:03.776 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:58:03.785 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:58:03.806 [Info] Disposing network... (1ms)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:58:03.815 [Info] Saving updated server variable values
+
+--------------------------------------------------------------------------------
+2023-01-29 08:58:03.815 [Info] Saving online users/players... (10ms)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:58:03.815 [Info] Saving loaded guilds....
+
+--------------------------------------------------------------------------------
+2023-01-29 08:58:03.815 [Info] Online users/players saved. (11ms)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:58:03.815 [Info] Shutting down the API... (11ms)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:58:03.817 [Info] Shutting down the console thread... (12ms)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:58:04.828 [Info] Base dispose. (1023ms)
+
+--------------------------------------------------------------------------------
+2023-01-29 08:58:04.828 [Info] Finished disposing server context. (1023ms)
+
+--------------------------------------------------------------------------------

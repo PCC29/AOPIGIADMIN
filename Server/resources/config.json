@@ -1,5 +1,5 @@
 {
-  "GameName": "Aobigi",
+  "GameName": "Intersect",
   "ServerPort": 5400,
   "AdminOnly": false,
   "BlockClientRegistrations": false,
@@ -21,12 +21,12 @@
     "MaxDashSpeed": 200,
     "MinAttackRate": 500,
     "RegenTime": 3000,
-    "EnableCombatChatMessages": true,
-    "MovementCancelsCast": true,
+    "EnableCombatChatMessages": false,
+    "MovementCancelsCast": false,
     "MatchGroupCooldowns": true,
     "MatchGroupCooldownHighest": true,
     "LinkSpellAndItemCooldowns": true,
-    "EnableGlobalCooldowns": true,
+    "EnableGlobalCooldowns": false,
     "GlobalCooldownDuration": 1500,
     "MaxPlayerAutoTargetRadius": 15,
     "RegenVitalsInCombat": false
@@ -185,7 +185,7 @@
     }
   },
   "Loot": {
-    "ItemDespawnTime": 86000000,
+    "ItemDespawnTime": 15000,
     "ItemOwnershipTime": 5000,
     "ShowUnownedItems": false,
     "ConsolidateMapDrops": true,
@@ -271,7 +271,7 @@
     "InitialBankSlots": 50,
     "Ranks": [
       {
-        "Title": "Hội trưởng",
+        "Title": "Master",
         "Limit": 1,
         "Permissions": {
           "Invite": true,
@@ -284,8 +284,8 @@
         }
       },
       {
-        "Title": "Hội phó",
-        "Limit": 2,
+        "Title": "Officer",
+        "Limit": 10,
         "Permissions": {
           "Invite": true,
           "Kick": true,
@@ -297,33 +297,7 @@
         }
       },
       {
-        "Title": "Chỉ huy",
-        "Limit": 10,
-        "Permissions": {
-          "Invite": true,
-          "Kick": false,
-          "Promote": true,
-          "Demote": true,
-          "BankRetrieve": true,
-          "BankDeposit": true,
-          "BankMove": false
-        }
-      },
-      {
-        "Title": "Tinh anh",
-        "Limit": -1,
-        "Permissions": {
-          "Invite": false,
-          "Kick": false,
-          "Promote": false,
-          "Demote": false,
-          "BankRetrieve": false,
-          "BankDeposit": false,
-          "BankMove": false
-        }
-      },
-      {
-        "Title": "Thành viên",
+        "Title": "Member",
         "Limit": -1,
         "Permissions": {
           "Invite": false,
@@ -336,7 +310,7 @@
         }
       },
       {
-        "Title": "Người mới",
+        "Title": "Newbie",
         "Limit": -1,
         "Permissions": {
           "Invite": false,
