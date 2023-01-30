@@ -1,0 +1,96 @@
+﻿2022-12-14 07:42:41.408 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+2022-12-14 07:42:41.412 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+2022-12-14 07:42:43.019 [Warn] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+
+--------------------------------------------------------------------------------
+2022-12-14 07:42:43.020 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+Listening on 0.0.0.0:5400.
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Succeeded
+
+--------------------------------------------------------------------------------
+Failed to automatically port forward udp port 5400 using UPnP. (UPnP possibly disabled in your router settings, or this port might already be forwarded!)
+
+--------------------------------------------------------------------------------
+2022-12-14 07:42:43.333 [Warn] UPnP Could Not Open UDP Port 5400
+Open.Nat.MappingException: Error 718: ConflictInMappingEntry
+   at Open.Nat.SoapClient.GetXmlDocument(String response)
+   at Open.Nat.SoapClient.<InvokeAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Open.Nat.StreamExtensions.<TimeoutAfter>d__7`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Open.Nat.UpnpNatDevice.<CreatePortMapAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Intersect.Server.Networking.Helpers.UpnP.<OpenServerPort>d__5.MoveNext()
+
+--------------------------------------------------------------------------------
+Failed to automatically port forward tcp port 5400 using UPnP. (UPnP possibly disabled in your router settings, or this port might already be forwarded!)
+
+--------------------------------------------------------------------------------
+2022-12-14 07:42:43.352 [Warn] UPnP Could Not Open TCP Port 5400
+Open.Nat.MappingException: Error 718: ConflictInMappingEntry
+   at Open.Nat.SoapClient.GetXmlDocument(String response)
+   at Open.Nat.SoapClient.<InvokeAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Open.Nat.StreamExtensions.<TimeoutAfter>d__7`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Open.Nat.UpnpNatDevice.<CreatePortMapAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Intersect.Server.Networking.Helpers.UpnP.<OpenServerPort>d__5.MoveNext()
+
+--------------------------------------------------------------------------------
+2022-12-14 07:42:45.344 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2022-12-14 07:42:45.344 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2022-12-14 07:42:45.345 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2022-12-14 07:42:45.347 [Info] Disposing network... (0ms)
+
+--------------------------------------------------------------------------------
+2022-12-14 07:42:45.351 [Info] Saving updated server variable values
+
+--------------------------------------------------------------------------------
+2022-12-14 07:42:45.352 [Info] Saving online users/players... (4ms)
+
+--------------------------------------------------------------------------------
+2022-12-14 07:42:45.389 [Info] Saving loaded guilds....
+
+--------------------------------------------------------------------------------
+2022-12-14 07:42:45.389 [Info] Online users/players saved. (41ms)
+
+--------------------------------------------------------------------------------
+2022-12-14 07:42:45.389 [Info] Shutting down the API... (41ms)
+
+--------------------------------------------------------------------------------
+2022-12-14 07:42:45.425 [Info] Base dispose. (77ms)
+
+--------------------------------------------------------------------------------
+2022-12-14 07:42:45.426 [Info] Finished disposing server context. (77ms)
+
+--------------------------------------------------------------------------------

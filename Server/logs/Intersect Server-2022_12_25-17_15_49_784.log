@@ -1,0 +1,267 @@
+﻿2022-12-25 10:15:49.810 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+2022-12-25 10:15:49.816 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+2022-12-25 10:15:51.538 [Warn] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+
+--------------------------------------------------------------------------------
+2022-12-25 10:15:51.539 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+Listening on 0.0.0.0:5400.
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Succeeded
+
+--------------------------------------------------------------------------------
+Failed to automatically port forward udp port 5400 using UPnP. (UPnP possibly disabled in your router settings, or this port might already be forwarded!)
+
+--------------------------------------------------------------------------------
+2022-12-25 10:15:52.023 [Warn] UPnP Could Not Open UDP Port 5400
+Open.Nat.MappingException: Error 718: ConflictInMappingEntry
+   at Open.Nat.SoapClient.GetXmlDocument(String response)
+   at Open.Nat.SoapClient.<InvokeAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Open.Nat.StreamExtensions.<TimeoutAfter>d__7`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Open.Nat.UpnpNatDevice.<CreatePortMapAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Intersect.Server.Networking.Helpers.UpnP.<OpenServerPort>d__5.MoveNext()
+
+--------------------------------------------------------------------------------
+Failed to automatically port forward tcp port 5400 using UPnP. (UPnP possibly disabled in your router settings, or this port might already be forwarded!)
+
+--------------------------------------------------------------------------------
+2022-12-25 10:15:52.049 [Warn] UPnP Could Not Open TCP Port 5400
+Open.Nat.MappingException: Error 718: ConflictInMappingEntry
+   at Open.Nat.SoapClient.GetXmlDocument(String response)
+   at Open.Nat.SoapClient.<InvokeAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Open.Nat.StreamExtensions.<TimeoutAfter>d__7`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Open.Nat.UpnpNatDevice.<CreatePortMapAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Intersect.Server.Networking.Helpers.UpnP.<OpenServerPort>d__5.MoveNext()
+
+--------------------------------------------------------------------------------
+2022-12-25 10:16:06.131 [Debug] hail Time=66 Offset=63807560165533 Real=63807560165600
+
+--------------------------------------------------------------------------------
+2022-12-25 10:16:06.131 [Debug] local Time=14627 Offset=63807560151500 Real=63807560166128
+
+--------------------------------------------------------------------------------
+2022-12-25 10:16:06.131 [Debug] real delta=528
+
+--------------------------------------------------------------------------------
+2022-12-25 10:16:06.131 [Debug] NCPing=-1000
+
+--------------------------------------------------------------------------------
+2022-12-25 10:16:06.218 [Info] Connection approved [4cd9bcea-55ec-4bd2-8893-486d8d95557d].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:16:06.237 [Debug] Connection established to remote [4cd9bcea-55ec-4bd2-8893-486d8d95557d/127.0.0.1:51816].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:16:06.238 [Info] Connected [4cd9bcea-55ec-4bd2-8893-486d8d95557d].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:16:50.458 [Debug] Creating new instance with ID 00000000-0000-0000-0000-000000000000 for map New Map
+
+--------------------------------------------------------------------------------
+2022-12-25 10:20:42.352 [Debug] StatusChanged: [NetIncomingMessage #119 14 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
+2022-12-25 10:20:42.353 [Debug] Connection terminated to remote [4cd9bcea-55ec-4bd2-8893-486d8d95557d/127.0.0.1:51816].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:20:42.353 [Info] Disconnected [4cd9bcea-55ec-4bd2-8893-486d8d95557d].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:20:42.354 [Debug] Client disconnected (PCC->Cac)
+
+--------------------------------------------------------------------------------
+2022-12-25 10:20:47.654 [Debug] hail Time=64 Offset=63807560447380 Real=63807560447445
+
+--------------------------------------------------------------------------------
+2022-12-25 10:20:47.654 [Debug] local Time=296153 Offset=63807560151500 Real=63807560447654
+
+--------------------------------------------------------------------------------
+2022-12-25 10:20:47.654 [Debug] real delta=209
+
+--------------------------------------------------------------------------------
+2022-12-25 10:20:47.654 [Debug] NCPing=-1000
+
+--------------------------------------------------------------------------------
+2022-12-25 10:20:47.654 [Info] Connection approved [133a1ec5-44f9-47f2-8b8a-a6d6c0f1e835].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:20:47.661 [Debug] Connection established to remote [133a1ec5-44f9-47f2-8b8a-a6d6c0f1e835/127.0.0.1:56263].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:20:47.661 [Info] Connected [133a1ec5-44f9-47f2-8b8a-a6d6c0f1e835].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:21:53.240 [Debug] StatusChanged: [NetIncomingMessage #0 14 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
+2022-12-25 10:21:53.241 [Debug] Connection terminated to remote [133a1ec5-44f9-47f2-8b8a-a6d6c0f1e835/127.0.0.1:56263].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:21:53.241 [Info] Disconnected [133a1ec5-44f9-47f2-8b8a-a6d6c0f1e835].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:21:53.241 [Debug] Client disconnected (PCC->Cac)
+
+--------------------------------------------------------------------------------
+2022-12-25 10:21:57.639 [Debug] hail Time=51 Offset=63807560517381 Real=63807560517432
+
+--------------------------------------------------------------------------------
+2022-12-25 10:21:57.639 [Debug] local Time=366138 Offset=63807560151500 Real=63807560517639
+
+--------------------------------------------------------------------------------
+2022-12-25 10:21:57.639 [Debug] real delta=206
+
+--------------------------------------------------------------------------------
+2022-12-25 10:21:57.639 [Debug] NCPing=-1000
+
+--------------------------------------------------------------------------------
+2022-12-25 10:21:57.640 [Info] Connection approved [58ac3c2f-5e9d-45bf-b976-34f705a38b8d].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:21:57.648 [Debug] Connection established to remote [58ac3c2f-5e9d-45bf-b976-34f705a38b8d/127.0.0.1:62201].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:21:57.648 [Info] Connected [58ac3c2f-5e9d-45bf-b976-34f705a38b8d].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:22:10.575 [Debug] StatusChanged: [NetIncomingMessage #0 14 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
+2022-12-25 10:22:10.576 [Debug] Connection terminated to remote [58ac3c2f-5e9d-45bf-b976-34f705a38b8d/127.0.0.1:62201].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:22:10.576 [Info] Disconnected [58ac3c2f-5e9d-45bf-b976-34f705a38b8d].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:22:10.576 [Debug] Client disconnected (PCC->Cac)
+
+--------------------------------------------------------------------------------
+2022-12-25 10:23:03.044 [Debug] hail Time=51 Offset=63807560582768 Real=63807560582820
+
+--------------------------------------------------------------------------------
+2022-12-25 10:23:03.044 [Debug] local Time=431543 Offset=63807560151500 Real=63807560583044
+
+--------------------------------------------------------------------------------
+2022-12-25 10:23:03.044 [Debug] real delta=223
+
+--------------------------------------------------------------------------------
+2022-12-25 10:23:03.044 [Debug] NCPing=-1000
+
+--------------------------------------------------------------------------------
+2022-12-25 10:23:03.044 [Info] Connection approved [60a6bf02-3bcb-4ac2-a00d-323ae2c32013].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:23:03.058 [Debug] Connection established to remote [60a6bf02-3bcb-4ac2-a00d-323ae2c32013/127.0.0.1:53591].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:23:03.058 [Info] Connected [60a6bf02-3bcb-4ac2-a00d-323ae2c32013].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:23:19.125 [Debug] hail Time=604 Offset=63807560598272 Real=63807560598876
+
+--------------------------------------------------------------------------------
+2022-12-25 10:23:19.125 [Debug] local Time=447624 Offset=63807560151500 Real=63807560599125
+
+--------------------------------------------------------------------------------
+2022-12-25 10:23:19.125 [Debug] real delta=248
+
+--------------------------------------------------------------------------------
+2022-12-25 10:23:19.125 [Debug] NCPing=-1000
+
+--------------------------------------------------------------------------------
+2022-12-25 10:23:19.126 [Info] Connection approved [17213b4b-3655-4c76-8add-53b051245d4f].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:23:19.140 [Debug] Connection established to remote [17213b4b-3655-4c76-8add-53b051245d4f/127.0.0.1:55659].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:23:19.140 [Info] Connected [17213b4b-3655-4c76-8add-53b051245d4f].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:51:33.951 [Debug] StatusChanged: [NetIncomingMessage #0 10 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
+2022-12-25 10:51:33.951 [Debug] Connection terminated to remote [17213b4b-3655-4c76-8add-53b051245d4f/127.0.0.1:55659].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:51:33.951 [Info] Disconnected [17213b4b-3655-4c76-8add-53b051245d4f].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:51:33.951 [Debug] Client disconnected (PCC->[editor])
+
+--------------------------------------------------------------------------------
+2022-12-25 10:51:36.647 [Debug] StatusChanged: [NetIncomingMessage #0 14 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
+2022-12-25 10:51:36.647 [Debug] Connection terminated to remote [60a6bf02-3bcb-4ac2-a00d-323ae2c32013/127.0.0.1:53591].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:51:36.648 [Info] Disconnected [60a6bf02-3bcb-4ac2-a00d-323ae2c32013].
+
+--------------------------------------------------------------------------------
+2022-12-25 10:51:36.648 [Debug] Client disconnected (PCC->Cac)
+
+--------------------------------------------------------------------------------
+2022-12-25 11:15:53.782 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2022-12-25 11:15:53.782 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2022-12-25 11:15:53.785 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2022-12-25 11:15:53.787 [Info] Disposing network... (0ms)
+
+--------------------------------------------------------------------------------
+2022-12-25 11:15:53.790 [Info] Saving updated server variable values
+
+--------------------------------------------------------------------------------
+2022-12-25 11:15:53.790 [Info] Saving online users/players... (3ms)
+
+--------------------------------------------------------------------------------
+2022-12-25 11:15:53.791 [Info] Saving loaded guilds....
+
+--------------------------------------------------------------------------------
+2022-12-25 11:15:53.829 [Info] Online users/players saved. (42ms)
+
+--------------------------------------------------------------------------------
+2022-12-25 11:15:53.829 [Info] Shutting down the API... (42ms)
+
+--------------------------------------------------------------------------------
+2022-12-25 11:15:53.834 [Info] Shutting down the console thread... (47ms)
+
+--------------------------------------------------------------------------------
+2022-12-25 11:15:54.836 [Info] Base dispose. (1048ms)
+
+--------------------------------------------------------------------------------
+2022-12-25 11:15:54.836 [Info] Finished disposing server context. (1049ms)
+
+--------------------------------------------------------------------------------

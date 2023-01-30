@@ -1,0 +1,108 @@
+﻿2022-12-14 08:42:04.243 [Warn] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+
+--------------------------------------------------------------------------------
+2022-12-14 08:42:04.249 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+2022-12-14 08:42:05.025 [Info] Connecting to 127.0.0.1:5400...
+
+--------------------------------------------------------------------------------
+2022-12-14 08:42:05.322 [Info] Connection approved [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2022-12-14 08:42:05.368 [Debug] approval Time=1300216 Offset=63806602825084 Real=63806604125300
+
+--------------------------------------------------------------------------------
+2022-12-14 08:42:05.368 [Debug] local Time=1300216 Offset=63806602825151 Real=63806604125368
+
+--------------------------------------------------------------------------------
+2022-12-14 08:42:05.368 [Debug] real delta=67
+
+--------------------------------------------------------------------------------
+2022-12-14 08:42:05.369 [Debug] this.Statistics.Ping=0 NCPing=2
+
+--------------------------------------------------------------------------------
+2022-12-14 08:42:05.370 [Debug] Connection established to remote [00000000-0000-0000-0000-000000000000/127.0.0.1:5400].
+
+--------------------------------------------------------------------------------
+2022-12-14 08:42:05.370 [Info] Connected [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2022-12-14 08:56:45.978 [Warn] 'Me' is null.
+
+--------------------------------------------------------------------------------
+2022-12-14 08:56:46.222 [Debug] received epp: 2181109
+
+--------------------------------------------------------------------------------
+2022-12-14 09:00:11.948 [Debug] received epp: 2386841
+
+--------------------------------------------------------------------------------
+2022-12-14 09:00:24.817 [Debug] IOException: The process cannot access the file 'C:\Users\cuong\OneDrive\Máy tính\Intersect Engine 0.7.1.88-beta Full\Client and Editor\resources\gui\layouts\game\TradeContextMenu.json' because it is being used by another process.
+    Stack:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+   at Intersect.Client.Framework.File_Management.GameContentManager.<>c__DisplayClass63_0.<SaveUIJson>b__0()
+
+
+--------------------------------------------------------------------------------
+2022-12-14 09:11:52.875 [Warn] 'Me' is null.
+
+--------------------------------------------------------------------------------
+2022-12-14 09:11:52.875 [Debug] received epp: 3087780
+
+--------------------------------------------------------------------------------
+2022-12-14 09:11:52.880 [Warn] 'GameUi' is null.
+
+--------------------------------------------------------------------------------
+2022-12-14 09:11:52.880 [Warn] 'GameUi' is null.
+
+--------------------------------------------------------------------------------
+2022-12-14 09:14:17.156 [Warn] 'Me' is null.
+
+--------------------------------------------------------------------------------
+2022-12-14 09:14:17.156 [Debug] received epp: 3232057
+
+--------------------------------------------------------------------------------
+2022-12-14 09:14:17.161 [Warn] 'GameUi' is null.
+
+--------------------------------------------------------------------------------
+2022-12-14 09:14:17.161 [Warn] 'GameUi' is null.
+
+--------------------------------------------------------------------------------
+2022-12-14 09:14:22.026 [Info] System window closing (due to user interaction most likely).
+
+--------------------------------------------------------------------------------
+2022-12-14 09:14:22.027 [Debug] StatusChanged: [NetIncomingMessage #353 10 bytes] [Disconnecting]
+
+--------------------------------------------------------------------------------
+2022-12-14 09:14:22.032 [Debug] StatusChanged: [NetIncomingMessage #354 14 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
+2022-12-14 09:14:22.084 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2022-12-14 09:14:22.084 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2022-12-14 09:14:22.085 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2022-12-14 09:14:22.085 [Info] GC.SuppressFinalize (0ms)
+
+--------------------------------------------------------------------------------
+2022-12-14 09:14:22.085 [Info] InternalDispose() completed. (0ms)
+
+--------------------------------------------------------------------------------
+2022-12-14 09:14:22.085 [Info] Clearing instance... (0ms)
+
+--------------------------------------------------------------------------------
+2022-12-14 09:14:22.085 [Info] Releasing context lock... (1ms)
+
+--------------------------------------------------------------------------------
+2022-12-14 09:14:22.085 [Info] Released. (1ms)
+
+--------------------------------------------------------------------------------

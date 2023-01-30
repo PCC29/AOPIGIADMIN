@@ -1,0 +1,100 @@
+﻿2023-01-02 03:42:15.225 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:15.231 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:18.140 [Warn] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:18.143 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+Listening on 0.0.0.0:5400.
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:18.472 [Error] Failed to start API.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at Microsoft.Owin.Host.HttpListener.OwinHttpListener.Start(HttpListener listener, Func`2 appFunc, IList`1 addresses, IDictionary`2 capabilities, Func`2 loggerFactory)
+   at Microsoft.Owin.Host.HttpListener.OwinServerFactory.Create(Func`2 app, IDictionary`2 properties)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Owin.Hosting.ServerFactory.ServerFactoryAdapter.Create(IAppBuilder builder)
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.Start(StartContext context)
+   at Intersect.Server.Web.RestApi.RestApi.Start()
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Succeeded
+
+--------------------------------------------------------------------------------
+Successfully auto port forwarded udp port 5400 using UPnP.
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:21.032 [Debug] hail Time=398310 Offset=63808227333443 Real=63808227731754
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:21.032 [Debug] local Time=2943 Offset=63808227738089 Real=63808227741032
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:21.032 [Debug] real delta=9278
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:21.032 [Debug] NCPing=-1000
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:21.067 [Info] Connection approved [5a21a66a-dae5-452e-9e84-67912f5f9325].
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:21.085 [Debug] Connection established to remote [5a21a66a-dae5-452e-9e84-67912f5f9325/127.0.0.1:60281].
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:21.085 [Info] Connected [5a21a66a-dae5-452e-9e84-67912f5f9325].
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:24.644 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:24.644 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:24.646 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:24.649 [Info] Disposing network... (0ms)
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:24.651 [Debug] StatusChanged: [NetIncomingMessage #0 10 bytes] [Disconnecting]
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:24.652 [Info] Saving updated server variable values
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:24.653 [Info] Saving online users/players... (5ms)
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:24.673 [Debug] StatusChanged: [NetIncomingMessage #0 14 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:24.712 [Info] Saving loaded guilds....
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:24.712 [Info] Online users/players saved. (63ms)
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:24.714 [Info] Shutting down the API... (65ms)
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:24.715 [Info] Shutting down the console thread... (66ms)
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:25.720 [Info] Base dispose. (1072ms)
+
+--------------------------------------------------------------------------------
+2023-01-02 03:42:25.720 [Info] Finished disposing server context. (1072ms)
+
+--------------------------------------------------------------------------------
