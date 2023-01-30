@@ -1,413 +1,172 @@
-﻿UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
+﻿2022-12-14 06:46:45.306 [Error] Received unhandled exception from System.Threading.Thread.
+
+--------------------------------------------------------------------------------
+2022-12-14 06:46:45.309 [Error] Received unhandled exception from Name:Intersect Server.exe
+There are no context policies.
+.
+
+--------------------------------------------------------------------------------
+2022-12-14 06:47:43.189 [Error] Received unhandled exception from System.Threading.Thread.
+
+--------------------------------------------------------------------------------
+2022-12-14 06:47:43.192 [Error] Received unhandled exception from Name:Intersect Server.exe
+There are no context policies.
+.
 
-
---------------------------------------------------------------------------------
-UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
-
-
---------------------------------------------------------------------------------
-2023-01-27 18:28:12.922 [Error] Received unhandled exception from System.Threading.Thread.
-
---------------------------------------------------------------------------------
-2023-01-27 18:28:12.926 [Error] ThreadAbortException: Thread was being aborted.
-    Stack:    at System.IO.__ConsoleStream.WaitForAvailableConsoleInput(SafeFileHandle file, Boolean isPipe)
-   at System.IO.__ConsoleStream.ReadFileNative(SafeFileHandle hFile, Byte[] bytes, Int32 offset, Int32 count, Boolean useFileAPIs, Boolean isPipe, Int32& bytesRead)
-   at System.IO.__ConsoleStream.Read(Byte[] buffer, Int32 offset, Int32 count)
-   at System.IO.StreamReader.ReadBuffer()
-   at System.IO.StreamReader.ReadLine()
-   at System.IO.TextReader.SyncTextReader.ReadLine()
-   at System.Console.ReadLine()
-   at Intersect.Console.ReadLine()
-   at Intersect.Server.Core.ConsoleService.ConsoleThread.ThreadStart(ServerContext serverContext)
-
-
---------------------------------------------------------------------------------
-UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
-
-
---------------------------------------------------------------------------------
-UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
-
-
---------------------------------------------------------------------------------
-UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
-
-
---------------------------------------------------------------------------------
-UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
-
-
---------------------------------------------------------------------------------
-UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
-
-
---------------------------------------------------------------------------------
-UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
-
-
---------------------------------------------------------------------------------
-UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
-
-
---------------------------------------------------------------------------------
-UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
-
-
---------------------------------------------------------------------------------
-UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
-
-
---------------------------------------------------------------------------------
-UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
-
-
---------------------------------------------------------------------------------
-UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
-
-
---------------------------------------------------------------------------------
-2023-01-29 08:02:54.171 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:39.299 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:39.791 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:40.344 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:40.883 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:41.388 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:41.900 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:42.403 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:42.899 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:43.408 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:43.910 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:44.409 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:44.974 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:45.478 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:45.989 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:46.496 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:47.003 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
 --------------------------------------------------------------------------------
-2023-01-29 08:05:47.525 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+2022-12-14 06:49:37.650 [Error] Failed to start API.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at Microsoft.Owin.Host.HttpListener.OwinHttpListener.Start(HttpListener listener, Func`2 appFunc, IList`1 addresses, IDictionary`2 capabilities, Func`2 loggerFactory)
+   at Microsoft.Owin.Host.HttpListener.OwinServerFactory.Create(Func`2 app, IDictionary`2 properties)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Owin.Hosting.ServerFactory.ServerFactoryAdapter.Create(IAppBuilder builder)
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.Start(StartContext context)
+   at Intersect.Server.Web.RestApi.RestApi.Start()
 
 --------------------------------------------------------------------------------
-2023-01-29 08:05:48.077 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+2022-12-14 06:50:17.045 [Error] Failed to start API.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at Microsoft.Owin.Host.HttpListener.OwinHttpListener.Start(HttpListener listener, Func`2 appFunc, IList`1 addresses, IDictionary`2 capabilities, Func`2 loggerFactory)
+   at Microsoft.Owin.Host.HttpListener.OwinServerFactory.Create(Func`2 app, IDictionary`2 properties)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Owin.Hosting.ServerFactory.ServerFactoryAdapter.Create(IAppBuilder builder)
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.Start(StartContext context)
+   at Intersect.Server.Web.RestApi.RestApi.Start()
 
 --------------------------------------------------------------------------------
-2023-01-29 08:05:48.589 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+2022-12-14 06:51:08.419 [Error] Failed to start API.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at Microsoft.Owin.Host.HttpListener.OwinHttpListener.Start(HttpListener listener, Func`2 appFunc, IList`1 addresses, IDictionary`2 capabilities, Func`2 loggerFactory)
+   at Microsoft.Owin.Host.HttpListener.OwinServerFactory.Create(Func`2 app, IDictionary`2 properties)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Owin.Hosting.ServerFactory.ServerFactoryAdapter.Create(IAppBuilder builder)
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.Start(StartContext context)
+   at Intersect.Server.Web.RestApi.RestApi.Start()
 
 --------------------------------------------------------------------------------
-2023-01-29 08:05:49.090 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+2022-12-14 06:51:36.345 [Error] Received unhandled exception from System.Threading.Thread.
 
 --------------------------------------------------------------------------------
-2023-01-29 08:05:49.616 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+2022-12-14 06:51:36.347 [Error] Received unhandled exception from Name:Intersect Server.exe
+There are no context policies.
+.
 
 --------------------------------------------------------------------------------
-2023-01-29 08:05:50.160 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+2022-12-14 07:31:12.015 [Error] Failed to start API.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at Microsoft.Owin.Host.HttpListener.OwinHttpListener.Start(HttpListener listener, Func`2 appFunc, IList`1 addresses, IDictionary`2 capabilities, Func`2 loggerFactory)
+   at Microsoft.Owin.Host.HttpListener.OwinServerFactory.Create(Func`2 app, IDictionary`2 properties)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Owin.Hosting.ServerFactory.ServerFactoryAdapter.Create(IAppBuilder builder)
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.Start(StartContext context)
+   at Intersect.Server.Web.RestApi.RestApi.Start()
 
 --------------------------------------------------------------------------------
-2023-01-29 08:05:50.682 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+2022-12-14 07:32:43.015 [Error] Failed to start API.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at Microsoft.Owin.Host.HttpListener.OwinHttpListener.Start(HttpListener listener, Func`2 appFunc, IList`1 addresses, IDictionary`2 capabilities, Func`2 loggerFactory)
+   at Microsoft.Owin.Host.HttpListener.OwinServerFactory.Create(Func`2 app, IDictionary`2 properties)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Owin.Hosting.ServerFactory.ServerFactoryAdapter.Create(IAppBuilder builder)
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.Start(StartContext context)
+   at Intersect.Server.Web.RestApi.RestApi.Start()
 
 --------------------------------------------------------------------------------
-2023-01-29 08:05:51.176 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+2022-12-14 07:39:19.387 [Error] Received unhandled exception from Name:Intersect Server.exe
+There are no context policies.
+.
 
 --------------------------------------------------------------------------------
-2023-01-29 08:05:51.740 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+2022-12-14 07:55:52.677 [Error] Received unhandled exception from System.Threading.Thread.
 
 --------------------------------------------------------------------------------
-2023-01-29 08:05:52.252 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+2022-12-14 07:55:52.680 [Error] Received unhandled exception from Name:Intersect Server.exe
+There are no context policies.
+.
 
 --------------------------------------------------------------------------------
-2023-01-29 08:05:52.743 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+2022-12-14 07:56:38.670 [Error] Received unhandled exception from System.Threading.Thread.
 
 --------------------------------------------------------------------------------
-2023-01-29 08:05:53.256 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+2022-12-14 07:56:38.670 [Error] Received unhandled exception from Name:Intersect Server.exe
+There are no context policies.
+.
 
 --------------------------------------------------------------------------------
-2023-01-29 08:05:53.818 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+2022-12-14 13:02:19.915 [Error] Received unhandled exception from System.Threading.Thread.
 
 --------------------------------------------------------------------------------
-2023-01-29 08:05:54.313 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+2022-12-14 13:02:19.918 [Error] Received unhandled exception from Name:Intersect Server.exe
+There are no context policies.
+.
 
 --------------------------------------------------------------------------------
-2023-01-29 08:05:54.864 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+2022-12-14 16:38:58.183 [Error] Received unhandled exception from System.Threading.Thread.
+2022-12-14 16:38:58.183 [Error] Received unhandled exception from Name:Intersect Server.exe
+There are no context policies.
+.
 
 --------------------------------------------------------------------------------
-2023-01-29 08:05:55.432 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+ver.exe
+There are no context policies.
+.
 
 --------------------------------------------------------------------------------
-2023-01-29 08:05:55.993 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
 
 --------------------------------------------------------------------------------
-2023-01-29 08:05:56.546 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
+2023-01-02 03:35:33.770 [Error] Failed to start API.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at Microsoft.Owin.Host.HttpListener.OwinHttpListener.Start(HttpListener listener, Func`2 appFunc, IList`1 addresses, IDictionary`2 capabilities, Func`2 loggerFactory)
+   at Microsoft.Owin.Host.HttpListener.OwinServerFactory.Create(Func`2 app, IDictionary`2 properties)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Owin.Hosting.ServerFactory.ServerFactoryAdapter.Create(IAppBuilder builder)
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.Start(StartContext context)
+   at Intersect.Server.Web.RestApi.RestApi.Start()
 
 --------------------------------------------------------------------------------
-2023-01-29 08:05:57.053 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:57.548 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:58.061 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:58.562 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:59.124 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:05:59.713 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:00.235 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:00.795 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:01.305 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:01.803 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:02.372 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:02.926 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:03.425 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:03.988 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:04.487 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:05.007 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:05.523 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:06.041 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:06.532 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:07.042 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:07.602 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:08.106 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:08.599 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:09.118 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:09.617 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:10.122 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-2023-01-29 08:06:10.620 [Error] Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event [Player] Người chơi mới)
-
---------------------------------------------------------------------------------
-UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
-
-
---------------------------------------------------------------------------------
-UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
-
-
---------------------------------------------------------------------------------
-UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
-
-
---------------------------------------------------------------------------------
-UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
-
-
---------------------------------------------------------------------------------
-UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
-
-
---------------------------------------------------------------------------------
-UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
-
-
---------------------------------------------------------------------------------
-UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
-
-
---------------------------------------------------------------------------------
-UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
-NatDeviceNotFoundException: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
-    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
-
+2023-01-02 03:42:18.472 [Error] Failed to start API.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at Microsoft.Owin.Host.HttpListener.OwinHttpListener.Start(HttpListener listener, Func`2 appFunc, IList`1 addresses, IDictionary`2 capabilities, Func`2 loggerFactory)
+   at Microsoft.Owin.Host.HttpListener.OwinServerFactory.Create(Func`2 app, IDictionary`2 properties)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Owin.Hosting.ServerFactory.ServerFactoryAdapter.Create(IAppBuilder builder)
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.Start(StartContext context)
+   at Intersect.Server.Web.RestApi.RestApi.Start()
 
 --------------------------------------------------------------------------------
 <<<<<<< HEAD
