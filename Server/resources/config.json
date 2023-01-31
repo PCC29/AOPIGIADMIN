@@ -1,5 +1,5 @@
 {
-  "GameName": "Intersect",
+  "GameName": "Aobigi",
   "ServerPort": 5400,
   "AdminOnly": false,
   "BlockClientRegistrations": false,
@@ -21,12 +21,12 @@
     "MaxDashSpeed": 200,
     "MinAttackRate": 500,
     "RegenTime": 3000,
-    "EnableCombatChatMessages": false,
-    "MovementCancelsCast": false,
+    "EnableCombatChatMessages": true,
+    "MovementCancelsCast": true,
     "MatchGroupCooldowns": true,
     "MatchGroupCooldownHighest": true,
     "LinkSpellAndItemCooldowns": true,
-    "EnableGlobalCooldowns": false,
+    "EnableGlobalCooldowns": true,
     "GlobalCooldownDuration": 1500,
     "MaxPlayerAutoTargetRadius": 15,
     "RegenVitalsInCombat": false
@@ -185,7 +185,7 @@
     }
   },
   "Loot": {
-    "ItemDespawnTime": 15000,
+    "ItemDespawnTime": 86000000,
     "ItemOwnershipTime": 5000,
     "ShowUnownedItems": false,
     "ConsolidateMapDrops": true,
@@ -271,7 +271,7 @@
     "InitialBankSlots": 50,
     "Ranks": [
       {
-        "Title": "Master",
+        "Title": "Hội trưởng",
         "Limit": 1,
         "Permissions": {
           "Invite": true,
@@ -284,8 +284,8 @@
         }
       },
       {
-        "Title": "Officer",
-        "Limit": 10,
+        "Title": "Hội phó",
+        "Limit": 2,
         "Permissions": {
           "Invite": true,
           "Kick": true,
@@ -297,7 +297,33 @@
         }
       },
       {
-        "Title": "Member",
+        "Title": "Chỉ huy",
+        "Limit": 10,
+        "Permissions": {
+          "Invite": true,
+          "Kick": false,
+          "Promote": true,
+          "Demote": true,
+          "BankRetrieve": true,
+          "BankDeposit": true,
+          "BankMove": false
+        }
+      },
+      {
+        "Title": "Tinh anh",
+        "Limit": -1,
+        "Permissions": {
+          "Invite": false,
+          "Kick": false,
+          "Promote": false,
+          "Demote": false,
+          "BankRetrieve": false,
+          "BankDeposit": false,
+          "BankMove": false
+        }
+      },
+      {
+        "Title": "Thành viên",
         "Limit": -1,
         "Permissions": {
           "Invite": false,
@@ -310,7 +336,7 @@
         }
       },
       {
-        "Title": "Newbie",
+        "Title": "Người mới",
         "Limit": -1,
         "Permissions": {
           "Invite": false,
@@ -343,11 +369,13 @@
   "Items": {
     "RarityTiers": [
       "None",
-      "Common",
-      "Uncommon",
-      "Rare",
-      "Epic",
-      "Legendary"
+      "Phổ biến",
+      "Ít phổ biến",
+      "Hiếm",
+      "Cổ",
+      "Huyền thoại",
+      "Huyền bí",
+      "Độc lạ"
     ]
   },
   "Passability": {
