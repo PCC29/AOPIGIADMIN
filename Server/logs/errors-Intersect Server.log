@@ -320,3 +320,14 @@ DbUpdateConcurrencyException: Database operation expected to affect 1 row(s) but
 
 
 --------------------------------------------------------------------------------
+2023-01-31 13:23:06.146 [Error] Received unhandled exception from Name:Intersect Server.exe
+There are no context policies.
+.
+
+--------------------------------------------------------------------------------
+2023-01-31 13:23:06.147 [Error] NullReferenceException: Object reference not set to an instance of an object.
+    Stack:    at SQLitePCL.raw.sqlite3_finalize(sqlite3_stmt stmt)
+   at SQLitePCL.sqlite3_stmt.Finalize()
+
+
+--------------------------------------------------------------------------------

@@ -47,7 +47,7 @@
       "RightMouseClickSound": null,
       "Children": {
         "Key": {
-          "Bounds": "2,0,1,16",
+          "Bounds": "2,0,1,19",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
           "AlignmentTransform": "0,0",
@@ -77,7 +77,7 @@
           "TextScale": 1.0
         },
         "Value": {
-          "Bounds": "150,0,1,16",
+          "Bounds": "150,0,1,19",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
           "AlignmentTransform": "0,0",

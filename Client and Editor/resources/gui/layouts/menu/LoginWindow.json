@@ -248,7 +248,7 @@
       "ToolTipFont": null,
       "ToolTipTextColor": "",
       "Label": {
-        "Bounds": "0,6,82,16",
+        "Bounds": "0,6,97,19",
         "Padding": "0,0,0,0",
         "AlignmentEdgeDistances": "0,0,0,0",
         "AlignmentTransform": "0,0",
@@ -319,7 +319,7 @@
       }
     },
     "ForgotPasswordButton": {
-      "Bounds": "214,130,97,16",
+      "Bounds": "214,130,115,19",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
       "AlignmentTransform": "0,0",
