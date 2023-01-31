@@ -7,9 +7,9 @@
   "ActionMsgFont": "sourcesansproblack",
   "UIFont": "sourcesanspro,8",
   "ChatLines": 100,
-  "MenuMusic": "RPG-Theme_v001_Looping.ogg",
+  "MenuMusic": "vn.ogg",
   "MenuBackground": [
-    "background.png"
+    "hinhnen.png"
   ],
   "MenuBackgroundDisplayMode": "Default",
   "MenuBackgroundFrameInterval": 50,

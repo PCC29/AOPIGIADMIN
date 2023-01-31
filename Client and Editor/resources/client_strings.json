@@ -69,7 +69,7 @@
     "reason": "Reason:"
   },
   "Character": {
-    "equipment": "Equipment:",
+    "equipment": "Trang bị:",
     "levelandclass": "Level: {00} {01}",
     "name": "{00}",
     "points": "Points: {00}",
@@ -92,17 +92,17 @@
     "Manasteal": "Manasteal: {00}%"
   },
   "CharacterCreation": {
-    "back": "Back",
+    "back": "Trở lại",
     "Class": "Class:",
-    "create": "Create",
-    "female": "Female",
-    "gender": "Gender:",
+    "create": "Tạo",
+    "female": "Nữ",
+    "gender": "Giới tính:",
     "hint": "Customize",
-    "hint2": "Your Character",
+    "hint2": "Nhân vật của bạn",
     "invalidname": "Character name is invalid. Please use alphanumeric characters with a length between 2 and 20.",
-    "male": "Male",
-    "name": "Char Name:",
-    "title": "Create Character"
+    "male": "Nam",
+    "name": "Tên nhân vật:",
+    "title": "Tạo nhân vật"
   },
   "CharacterSelection": {
     "delete": "Delete",
@@ -162,7 +162,7 @@
     "stat0": "Sức lực",
     "stat1": "Năng lực",
     "stat2": "Sức bền",
-    "stat3": "Kháng phép",
+    "stat3": "Sức đề kháng",
     "stat4": "Tốc độ",
     "targetoutsiderange": "Target too far away!",
     "vital0": "Sức khỏe",
@@ -252,15 +252,15 @@
     "cooldown": "{00}s",
     "exp": "",
     "expval": "{00} / {01}",
-    "friend": "Befriend",
-    "friendtip": "Send {00} a friend request.",
+    "friend": "Kết bạn",
+    "friendtip": "Gửi {00} lời mời kết bạn.",
     "level": "Lv. {00}",
     "map": "{00}",
     "maxlevel": "Max Level",
-    "party": "Party",
-    "partytip": "Invite {00} to your party.",
-    "trade": "Trade",
-    "tradetip": "Request to trade with {00}.",
+    "party": "Tổ đội",
+    "partytip": "Mời {00} vào đội của bạn.",
+    "trade": "Trao đổi",
+    "tradetip": "Yêu cầu trao đổi với {00}.",
     "vital0": "",
     "vital0val": "{00}",
     "vital1": "",
@@ -298,13 +298,13 @@
     "title": "Password Reset"
   },
   "Friends": {
-    "AddFriend": "Add Friend",
-    "AddFriendTitle": "Add Friend",
+    "AddFriend": "Kết bạn",
+    "AddFriendTitle": "Kết bạn",
     "AddFriendPrompt": "Who would you like to add as a friend?",
     "InFight": "You are currently fighting!",
-    "RemoveFriend": "Remove Friend",
+    "RemoveFriend": "Xóa bạn",
     "RemoveFriendPrompt": "Do you wish to remove {00} from your friends list?",
-    "Request": "Friend Request",
+    "Request": "Gửi Kết bạn",
     "RequestPrompt": "{00} đã gửi lời mời kết bạn, bạn có chấp nhận không?",
     "Title": "Bạn bè",
     "Offline": "Offline"
@@ -395,16 +395,16 @@
     "Title": "Inventory"
   },
   "ItemContextMenu": {
-    "Use": "Use {00}",
-    "Open": "Open {00}",
-    "Equip": "Equip {00}",
-    "Unequip": "Unequip {00}",
-    "Learn": "Learn {00}",
-    "Drop": "Drop {00}",
-    "Sell": "Sell {00}",
-    "Bank": "Bank {00}",
-    "Bag": "Bag {00}",
-    "Trade": "Offer {00}"
+    "Use": "Sử dụng {00}",
+    "Open": "Mở {00}",
+    "Equip": "Trang bị {00}",
+    "Unequip": "Tháo {00}",
+    "Learn": "Học {00}",
+    "Drop": "Bỏ {00}",
+    "Sell": "Bán {00}",
+    "Bank": "Cất {00}",
+    "Bag": "Túi {00}",
+    "Trade": "Gửi {00}"
   },
   "SpellContextMenu": {
     "Cast": "Cast {00}",
@@ -733,7 +733,7 @@
     "username": "Tên tài khoản:"
   },
   "Main": {
-    "gamename": "Intersect Client"
+    "gamename": "AOPIGI"
   },
   "MainMenu": {
     "Credits": "Thông tin",
