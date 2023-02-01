@@ -811,7 +811,7 @@
           "ToolTipFont": null,
           "ToolTipTextColor": "",
           "Label": {
-            "Bounds": "0,6,32,19",
+            "Bounds": "0,6,30,19",
             "Padding": "0,0,0,0",
             "AlignmentEdgeDistances": "0,0,0,0",
             "AlignmentTransform": "0,0",
@@ -901,7 +901,7 @@
           "ToolTipFont": null,
           "ToolTipTextColor": "",
           "Label": {
-            "Bounds": "0,6,50,19",
+            "Bounds": "0,6,19,19",
             "Padding": "0,0,0,0",
             "AlignmentEdgeDistances": "0,0,0,0",
             "AlignmentTransform": "0,0",

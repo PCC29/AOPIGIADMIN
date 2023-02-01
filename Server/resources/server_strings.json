@@ -176,8 +176,8 @@
     "helpheader": "List of available commands:",
     "invalidparameters": "Invalid parameters provided! Use {00} to get more info about a command.",
     "killsuccess": "{00} has been killed!",
-    "listaccount": "Account",
-    "listcharacter": "Character",
+    "listaccount": "Tài khoản",
+    "listcharacter": "Nhân vật",
     "listid": "ID",
     "metricsenabled": "Metrics collection enabled",
     "metricsdisabled": "Metrics collection disabled",
@@ -190,8 +190,8 @@
   },
   "Commands": {
     "Announcement": {
-      "Help": "gui thong bao den tat ca nguoi choi",
-      "Description": "Sends a global message to all users playing the game.",
+      "Help": "Gửi thông báo đến tất cả người chơi",
+      "Description": "Gửi thông báo đến tất cả người chơi.",
       "Name": "thongbao"
     },
     "Api": {
@@ -584,15 +584,15 @@
   "Intro": {
     "api": "API  '{00}'.",
     "apifailed": "khong the chay API.",
-    "consoleactive": "nhap TAT de tat server, cmds de xem danh sach lenh.",
-    "exit": "Bam enter de thoat.",
-    "loading": "Dang tai...",
+    "consoleactive": "Nhập TAT để tắt server.",
+    "exit": "Bấm Enter để thoát.",
+    "loading": "Đang tải...",
     "started": "Server da chay. Su dung UDP Port #{00}",
-    "support": "Con cac dume",
+    "support": "Con cặc đụ mẹ",
     "tagline": "                          Du an AOPIGI",
     "title": "AOPIGI",
-    "version": "Phien ban {00}",
-    "websocketstarted": "Websocket listener started for Unity WebGL Clients using Port #{00}"
+    "version": "Phiển bản {00}",
+    "websocketstarted": "Trình Websocket đã bắt đầu cho Máy khách Unity WebGL sử dụng Cổng #{00}"
   },
   "Items": {
     "bound": "You cannot drop this item.",
