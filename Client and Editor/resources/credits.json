@@ -1,7 +1,7 @@
 {
   "Lines": [
     {
-      "Text": "Intersect Engine",
+      "Text": "AOPIGI",
       "Font": "sourcesansproblack",
       "Size": 16,
       "Alignment": "center",
@@ -13,7 +13,7 @@
       }
     },
     {
-      "Text": "www.freemmorpgmaker.com",
+      "Text": "https://discord.gg/gT8P6by9CN",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "Text": "Copyright 2022 (C) Ascension Game Dev",
+      "Text": "Phiên bản thử nghiệm",
       "Font": "sourcesansproblack",
       "Size": 8,
       "Alignment": "center",
@@ -49,7 +49,7 @@
       }
     },
     {
-      "Text": "Authors",
+      "Text": "Tác giả",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
@@ -73,7 +73,7 @@
       }
     },
     {
-      "Text": "JC Snider",
+      "Text": "Tieu Cuong",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "Text": "Joe Bridges",
+      "Text": "Weed",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -97,7 +97,7 @@
       }
     },
     {
-      "Text": "Robbie Lodico",
+      "Text": "Viet Nam",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -121,7 +121,7 @@
       }
     },
     {
-      "Text": "Maintainers",
+      "Text": "Âm nhạc sử dụng",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
@@ -145,7 +145,19 @@
       }
     },
     {
-      "Text": "Jocelyn Cobb",
+      "Text": "Tiến Quân Ca",
+      "Font": "sourcesansproblack",
+      "Size": 10,
+      "Alignment": "center",
+      "Clr": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    {
+      "Text": "Nhạc sĩ: Văn Cao",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -158,18 +170,6 @@
     },
     {
       "Text": "",
-      "Font": "sourcesansproblack",
-      "Size": 8,
-      "Alignment": "center",
-      "Clr": {
-        "A": 255,
-        "R": 255,
-        "G": 255,
-        "B": 255
-      }
-    },
-    {
-      "Text": "Contributors",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
@@ -193,43 +193,7 @@
       }
     },
     {
-      "Text": "Alex Vild",
-      "Font": "sourcesansproblack",
-      "Size": 10,
-      "Alignment": "center",
-      "Clr": {
-        "A": 255,
-        "R": 255,
-        "G": 255,
-        "B": 255
-      }
-    },
-    {
-      "Text": "A.I. Robin",
-      "Font": "sourcesansproblack",
-      "Size": 10,
-      "Alignment": "center",
-      "Clr": {
-        "A": 255,
-        "R": 255,
-        "G": 255,
-        "B": 255
-      }
-    },
-    {
-      "Text": "Dog from the Kash Shop",
-      "Font": "sourcesansproblack",
-      "Size": 10,
-      "Alignment": "center",
-      "Clr": {
-        "A": 255,
-        "R": 255,
-        "G": 255,
-        "B": 255
-      }
-    },
-    {
-      "Text": "Fernando Arzola Lagos",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -253,7 +217,43 @@
       }
     },
     {
-      "Text": "Graphics",
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 10,
+      "Alignment": "center",
+      "Clr": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 10,
+      "Alignment": "center",
+      "Clr": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 10,
+      "Alignment": "center",
+      "Clr": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    {
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
@@ -277,7 +277,7 @@
       }
     },
     {
-      "Text": "7Soul",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -289,7 +289,7 @@
       }
     },
     {
-      "Text": "Item & Skill Icons",
+      "Text": "",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
@@ -313,7 +313,7 @@
       }
     },
     {
-      "Text": "Cordell Carrier (aka Murdoc)",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -325,7 +325,7 @@
       }
     },
     {
-      "Text": "Tilesets and Sprite Modifications",
+      "Text": "",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
@@ -349,7 +349,7 @@
       }
     },
     {
-      "Text": "George Bailey (aka George)",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -361,7 +361,7 @@
       }
     },
     {
-      "Text": "Graphic Style, Original Tilesets, and Items",
+      "Text": "",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
@@ -385,7 +385,7 @@
       }
     },
     {
-      "Text": "Joe Williamson (aka @JoeCreates)",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -397,7 +397,7 @@
       }
     },
     {
-      "Text": "Item Icons",
+      "Text": "",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
@@ -421,7 +421,7 @@
       }
     },
     {
-      "Text": "Jon Collier (aka Zetasis)",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -433,7 +433,7 @@
       }
     },
     {
-      "Text": "Tiles, Characters, Resources, Generator Components, Paperdolls, UI Icons, and so much more!",
+      "Text": "",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
@@ -457,7 +457,7 @@
       }
     },
     {
-      "Text": "PixelFox",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -469,7 +469,7 @@
       }
     },
     {
-      "Text": "Animations, Characters, Monsters, Paperdolls, and Tiles",
+      "Text": "",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
@@ -493,7 +493,7 @@
       }
     },
     {
-      "Text": "User Interface",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
@@ -517,7 +517,7 @@
       }
     },
     {
-      "Text": "Aesthetic",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -529,7 +529,7 @@
       }
     },
     {
-      "Text": "Original UI Design",
+      "Text": "",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
@@ -553,7 +553,7 @@
       }
     },
     {
-      "Text": "FontAwesome",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -565,7 +565,7 @@
       }
     },
     {
-      "Text": "UI Icons",
+      "Text": "",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
@@ -589,7 +589,7 @@
       }
     },
     {
-      "Text": "Vincent Garreau (particles.js)",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -601,7 +601,7 @@
       }
     },
     {
-      "Text": "Button Textures",
+      "Text": "",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
@@ -625,7 +625,7 @@
       }
     },
     {
-      "Text": "Sound Effects",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
@@ -649,7 +649,7 @@
       }
     },
     {
-      "Text": "artisticdude",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -661,7 +661,7 @@
       }
     },
     {
-      "Text": "Various RPG Sound Effects",
+      "Text": "",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
@@ -685,7 +685,7 @@
       }
     },
     {
-      "Text": "Kenney",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -697,7 +697,7 @@
       }
     },
     {
-      "Text": "RPG and UI Sound Effects",
+      "Text": "",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
@@ -721,7 +721,7 @@
       }
     },
     {
-      "Text": "Octave Sounds",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -733,7 +733,7 @@
       }
     },
     {
-      "Text": "UI Sound Effects",
+      "Text": "",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
@@ -757,7 +757,7 @@
       }
     },
     {
-      "Text": "Music",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
@@ -781,7 +781,7 @@
       }
     },
     {
-      "Text": "Eric Matyas",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -793,7 +793,7 @@
       }
     },
     {
-      "Text": "SoundImage.org",
+      "Text": "",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
@@ -817,7 +817,7 @@
       }
     },
     {
-      "Text": "Fonts",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
@@ -841,7 +841,7 @@
       }
     },
     {
-      "Text": "Adobe",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -853,7 +853,7 @@
       }
     },
     {
-      "Text": "Source Sans Pro and Source Sans Pro Black",
+      "Text": "",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
@@ -877,7 +877,7 @@
       }
     },
     {
-      "Text": "Special Thanks",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
@@ -901,7 +901,7 @@
       }
     },
     {
-      "Text": "Nightmare",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -913,7 +913,7 @@
       }
     },
     {
-      "Text": "Acting as an incredible testing environment, and helping us conquer engine limitations!",
+      "Text": "",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
@@ -937,7 +937,7 @@
       }
     },
     {
-      "Text": "Internal Testing Team(s)",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -949,7 +949,7 @@
       }
     },
     {
-      "Text": "Khaikaa, Zetasis, Niko, Raku, Mcadams, BiGG, Ainz Ooal Gown, davidsaid06, dxxknight, and hiroman!",
+      "Text": "",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
@@ -973,7 +973,7 @@
       }
     },
     {
-      "Text": "Zetasis",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -985,7 +985,7 @@
       }
     },
     {
-      "Text": "The amount of miscellaneous graphics he created for us on a whim, free of charge, and throughout all hours of the night is insane. Thanks Zeta!",
+      "Text": "",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
@@ -1009,7 +1009,7 @@
       }
     },
     {
-      "Text": "Robin Perris",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -1021,7 +1021,7 @@
       }
     },
     {
-      "Text": "DarkUI library and various development consultations.",
+      "Text": "",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
@@ -1045,7 +1045,7 @@
       }
     },
     {
-      "Text": "MonoGame Framework",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -1057,7 +1057,7 @@
       }
     },
     {
-      "Text": "Engine rendering, input handling, audio playback systems, and more!",
+      "Text": "",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
@@ -1081,7 +1081,7 @@
       }
     },
     {
-      "Text": "Ascension Game Dev Community",
+      "Text": "",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
@@ -1093,7 +1093,7 @@
       }
     },
     {
-      "Text": "Moral support, financial support, alpha/beta testing, and so much more!",
+      "Text": "",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
