@@ -1,0 +1,110 @@
+﻿2023-02-04 14:16:17.023 [Warn] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:17.023 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:17.746 [Info] Connecting to 26.82.96.248:5400...
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:18.019 [Info] Connection approved [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:18.063 [Debug] approval Time=2522386 Offset=63811114455612 Real=63811116977998
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:18.063 [Debug] local Time=2522386 Offset=63811114455677 Real=63811116978063
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:18.063 [Debug] real delta=64
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:18.063 [Debug] this.Statistics.Ping=0 NCPing=3
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:18.064 [Debug] Connection established to remote [00000000-0000-0000-0000-000000000000/26.82.96.248:5400].
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:18.064 [Info] Connected [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:20.352 [Warn] 'Me' is null.
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:20.549 [Debug] received epp: 2524691
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:21.129 [Debug] received epp: 2525500
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:21.145 [Debug] received epp: 2525529
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:21.396 [Debug] received epp: 2525779
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:21.660 [Debug] received epp: 2526044
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:21.926 [Debug] received epp: 2526308
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:53.108 [Info] System window closing (due to user interaction most likely).
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:57.991 [Info] System window closing (due to user interaction most likely).
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:58.800 [Info] System window closing (due to user interaction most likely).
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:58.802 [Debug] StatusChanged: [NetIncomingMessage #760 10 bytes] [Disconnecting]
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:58.805 [Debug] StatusChanged: [NetIncomingMessage #761 14 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:58.805 [Error] Received unhandled exception from Name:Intersect Client.exe
+There are no context policies.
+.
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:58.805 [Error] NetException: Got ack for message not yet sent?
+    Stack:    at Lidgren.Network.NetException.Assert(Boolean isOk, String message) in C:\Users\primero\git\agd\lidgren-network-gen3\Lidgren.Network\NetException.cs:line 62
+   at Lidgren.Network.NetReliableSenderChannel.ReceiveAcknowledge(Double now, Int32 seqNr) in C:\Users\primero\git\agd\lidgren-network-gen3\Lidgren.Network\NetReliableSenderChannel.cs:line 246
+   at Lidgren.Network.NetConnection.Heartbeat(Double now, UInt32 frameCounter) in C:\Users\primero\git\agd\lidgren-network-gen3\Lidgren.Network\NetConnection.cs:line 255
+   at Lidgren.Network.NetPeer.Heartbeat() in C:\Users\primero\git\agd\lidgren-network-gen3\Lidgren.Network\NetPeer.Internal.cs:line 379
+   at Lidgren.Network.NetPeer.ExecutePeerShutdown() in C:\Users\primero\git\agd\lidgren-network-gen3\Lidgren.Network\NetPeer.Internal.cs:line 268
+   at Lidgren.Network.NetPeer.NetworkLoop() in C:\Users\primero\git\agd\lidgren-network-gen3\Lidgren.Network\NetPeer.Internal.cs:line 236
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:58.809 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:58.809 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:58.809 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:58.810 [Info] GC.SuppressFinalize (0ms)
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:58.810 [Info] InternalDispose() completed. (0ms)
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:58.810 [Info] Clearing instance... (0ms)
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:58.810 [Info] Releasing context lock... (1ms)
+
+--------------------------------------------------------------------------------
+2023-02-04 14:16:58.810 [Info] Released. (1ms)
+
+--------------------------------------------------------------------------------
