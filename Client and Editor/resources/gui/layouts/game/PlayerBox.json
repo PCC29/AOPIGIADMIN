@@ -47,7 +47,7 @@
       "RightMouseClickSound": null,
       "Children": {
         "EntityNameLabel": {
-          "Bounds": "76,7,37,24",
+          "Bounds": "76,7,29,20",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
           "AlignmentTransform": "0,0",
@@ -77,7 +77,7 @@
           "TextScale": 1.0
         },
         "EntityLevelLabel": {
-          "Bounds": "16,7,1,24",
+          "Bounds": "16,7,1,20",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
           "AlignmentTransform": "0,0",
@@ -107,7 +107,7 @@
           "TextScale": 1.0
         },
         "NameAndLevelLabel": {
-          "Bounds": "32,6,1,24",
+          "Bounds": "32,6,1,20",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
           "AlignmentTransform": "0,0",
@@ -212,7 +212,7 @@
           "Font": null
         },
         "HPBarBackground": {
-          "Bounds": "130,44,168,16",
+          "Bounds": "130,44,32,32",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
           "AlignmentTransform": "0,0",
@@ -230,13 +230,13 @@
           "ToolTipBackground": "tooltip.png",
           "ToolTipFont": "sourcesansproblack,10",
           "ToolTipTextColor": "255,255,255,255",
-          "Texture": "emptybar.png",
+          "Texture": "thanhmautrong.png",
           "HoverSound": null,
           "LeftMouseClickSound": null,
           "RightMouseClickSound": null
         },
         "HPBar": {
-          "Bounds": "130,45,168,14",
+          "Bounds": "130,45,32,32",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
           "AlignmentTransform": "0,0",
@@ -254,7 +254,7 @@
           "ToolTipBackground": null,
           "ToolTipFont": null,
           "ToolTipTextColor": "",
-          "Texture": "HPBar.png",
+          "Texture": "thanhmauday.png",
           "HoverSound": null,
           "LeftMouseClickSound": null,
           "RightMouseClickSound": null
@@ -284,7 +284,7 @@
           "RightMouseClickSound": null
         },
         "HPTitle": {
-          "Bounds": "100,43,1,19",
+          "Bounds": "100,43,1,16",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
           "AlignmentTransform": "0,0",
@@ -314,7 +314,7 @@
           "TextScale": 1.0
         },
         "HPLabel": {
-          "Bounds": "130,43,168,16",
+          "Bounds": "130,69,32,32",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
           "AlignmentTransform": "0,0",
@@ -344,7 +344,7 @@
           "TextScale": 1.0
         },
         "MPBackground": {
-          "Bounds": "130,70,168,16",
+          "Bounds": "173,44,32,32",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
           "AlignmentTransform": "0,0",
@@ -362,13 +362,13 @@
           "ToolTipBackground": "tooltip.png",
           "ToolTipFont": "sourcesansproblack,10",
           "ToolTipTextColor": "255,255,255,255",
-          "Texture": "emptybar.png",
+          "Texture": "nangluongtrong.png",
           "HoverSound": null,
           "LeftMouseClickSound": null,
           "RightMouseClickSound": null
         },
         "MPBar": {
-          "Bounds": "130,71,168,14",
+          "Bounds": "173,44,32,32",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
           "AlignmentTransform": "0,0",
@@ -386,13 +386,13 @@
           "ToolTipBackground": null,
           "ToolTipFont": null,
           "ToolTipTextColor": "",
-          "Texture": "manabar.png",
+          "Texture": "nangluongday.png",
           "HoverSound": null,
           "LeftMouseClickSound": null,
           "RightMouseClickSound": null
         },
         "MPTitle": {
-          "Bounds": "100,69,1,19",
+          "Bounds": "130,69,1,16",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
           "AlignmentTransform": "0,0",
@@ -422,7 +422,7 @@
           "TextScale": 1.0
         },
         "MPLabel": {
-          "Bounds": "130,69,168,16",
+          "Bounds": "173,69,32,32",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
           "AlignmentTransform": "0,0",
@@ -500,7 +500,7 @@
           "RightMouseClickSound": null
         },
         "EXPTitle": {
-          "Bounds": "95,95,1,19",
+          "Bounds": "95,95,1,16",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
           "AlignmentTransform": "0,0",
@@ -605,11 +605,11 @@
           "Margin": "0,0,0,0",
           "RenderColor": "255,255,255,255",
           "Alignments": "",
-          "DrawBackground": false,
+          "DrawBackground": true,
           "MinimumSize": "1,1",
           "MaximumSize": "4096,4096",
           "Disabled": false,
-          "Hidden": true,
+          "Hidden": false,
           "RestrictToParent": false,
           "MouseInputEnabled": true,
           "HideToolTip": false,
@@ -625,10 +625,10 @@
           "AutoSizeToContents": false,
           "Font": "sourcesansproblack,10",
           "TextScale": 1.0,
-          "NormalImage": "",
-          "HoveredImage": "",
-          "ClickedImage": "",
-          "DisabledImage": "",
+          "NormalImage": "smallbutton.png",
+          "HoveredImage": "smallbutton_hovered.png",
+          "ClickedImage": "smallbutton_clicked.png",
+          "DisabledImage": "smallbutton_disabled.png",
           "CenterImage": false,
           "HoverSound": "octave-tap-resonant.wav",
           "MouseUpSound": "",

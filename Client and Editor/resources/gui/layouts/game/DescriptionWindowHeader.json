@@ -73,7 +73,7 @@
       }
     },
     "Title": {
-      "Bounds": "40,0,1,24",
+      "Bounds": "40,0,1,20",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
       "AlignmentTransform": "0,0",
@@ -103,7 +103,7 @@
       "TextScale": 1.0
     },
     "Subtitle": {
-      "Bounds": "40,16,1,19",
+      "Bounds": "40,16,1,16",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
       "AlignmentTransform": "0,0",
@@ -133,7 +133,7 @@
       "TextScale": 1.0
     },
     "Description": {
-      "Bounds": "40,29,1,19",
+      "Bounds": "40,29,1,16",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
       "AlignmentTransform": "0,0",
